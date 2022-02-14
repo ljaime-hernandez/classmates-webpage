@@ -10,7 +10,7 @@ export const NavBar = () => {
                 className="navbar-brand ms-5" 
                 to="/"
             >
-                Comics
+                ClassMates
             </Link>
 
             <div className="navbar-collapse">

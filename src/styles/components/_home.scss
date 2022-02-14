@@ -1,9 +1,16 @@
 
-
-.home__main-content {
-    
+.home__main-content ul{
+    list-style-type: none;
+    padding-inline-start: 0px;
 }
 
-.home__picture{
+.home__picture {
+    background-image: url('../../assets/images/homepic.jpg');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+}
 
+.home__paragraph {
+    text-align: justify;
 }
