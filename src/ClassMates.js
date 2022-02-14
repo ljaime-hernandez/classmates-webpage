@@ -1,8 +1,8 @@
-import React from 'react'
-import { NavBar } from './components/ui/NavBar'
+import React from 'react';
+import { AppRouter } from './routers/AppRouter';
 
 export const ClassMates  = () => {
   return (
-    <NavBar/>
+    <AppRouter/>
   )
 };

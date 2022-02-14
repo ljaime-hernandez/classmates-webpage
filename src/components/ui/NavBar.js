@@ -1,9 +1,59 @@
-import React from 'react'
+import React from 'react';
+import { Link } from 'react-router-dom';
 
 export const NavBar = () => {
-  return (
-    <div>
-        <h1>Yo</h1>
-    </div>
-  )
+
+    return (
+        <nav className="navbar navbar-expand-sm navbar-dark bg-dark">
+            
+            <Link 
+                className="navbar-brand ms-5" 
+                to="/"
+            >
+                Comics
+            </Link>
+
+            <div className="navbar-collapse">
+                <div className="navbar-nav">
+                    {/* <NavLink 
+                        className={({isActive}) => "nav-item nav-link" + (isActive ? ' active' : '')} 
+                        to="/marvel"
+                    >
+                        Marvel
+                    </NavLink>
+             
+                    <NavLink 
+                        className={({isActive}) => "nav-item nav-link" + (isActive ? ' active' : '')} 
+                        to="/dc"
+                    >
+                        DC
+                    </NavLink>
+
+                    <NavLink 
+                        className={({isActive}) => "nav-item nav-link" + (isActive ? ' active' : '')} 
+                        to="/search"
+                    >
+                        Search
+                    </NavLink> */}
+                </div>
+            </div>
+
+            <div className="navbar-collapse collapse w-100 order-3 dual-collapse2 d-flex justify-content-end">
+                <ul className="navbar-nav ml-auto">
+
+                    <span
+                        className='nav-item nav-link text-info'
+                    >
+                        { }
+                    </span>
+
+                    <button 
+                        className="nav-item nav-link btn me-5" 
+                    >
+                        Logout
+                    </button>
+                </ul>
+            </div>
+        </nav>
+    )
 }
