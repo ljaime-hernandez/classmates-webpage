@@ -1,10 +1,10 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
+import { Link, NavLink } from 'react-router-dom';
 
 export const NavBar = () => {
 
     return (
-        <nav className="navbar navbar-expand-sm navbar-dark bg-dark">
+        <nav className="navbar navbar-expand-sm navbar__container">
             
             <Link 
                 className="navbar-brand ms-5" 
@@ -20,21 +20,21 @@ export const NavBar = () => {
                         to="/marvel"
                     >
                         Marvel
-                    </NavLink>
+                    </NavLink> */}
              
                     <NavLink 
                         className={({isActive}) => "nav-item nav-link" + (isActive ? ' active' : '')} 
-                        to="/dc"
+                        to="/teachers"
                     >
-                        DC
+                        Teachers
                     </NavLink>
 
                     <NavLink 
                         className={({isActive}) => "nav-item nav-link" + (isActive ? ' active' : '')} 
-                        to="/search"
+                        to="/about"
                     >
-                        Search
-                    </NavLink> */}
+                        About
+                    </NavLink>
                 </div>
             </div>
 

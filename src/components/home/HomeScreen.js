@@ -10,15 +10,15 @@ export const HomeScreen = () => {
 
   return (
     <div>
-        <div className='row mt-5'>
-            <div className='col-6 home__main-content'>
+        <div className='row home__div1'>
+            <div className='col-6 mt-5 home__main-content'>
                 <h1>
                     Aprende ingles facil!
                 </h1>
                 <ul>
                     <li><i className="fa-solid fa-bullhorn me-3"></i>1-on-1 lessons in more than 150 languages</li>
-                    <li><i className="fa-solid fa-bullhorn me-3"></i>Practice for free with the ClassMate community</li>
-                    <li><i className="fa-solid fa-bullhorn me-3"></i>Take learning beyond the classroom</li>
+                    <li><i className="fa-solid fa-bullhorn me-3"></i>Practice for free with the className community</li>
+                    <li><i className="fa-solid fa-bullhorn me-3"></i>Take learning beyond the className</li>
                 </ul>
                 <button
                     className='btn btn-primary'
@@ -28,13 +28,13 @@ export const HomeScreen = () => {
                 </button>
             </div>
 
-            <div className='col-6 home__picture'>
+            <div className='col-6 mt-5 home__picture'>
             </div>
 
         </div>
 
-        <div className='row mt-5'>
-           <h1 className='mb-5 d-flex justify-content-center'>Docentes Expertos</h1>
+        <div className='row home__div2'>
+           <h1 className='mb-5 mt-5 d-flex justify-content-center'>Docentes Expertos</h1>
            <h4 className='home__paragraph'>
                 Contamos con docentes titulados, cuidadosamente seleccionados por sus
                 excelentes habilidades pedagógicas y su gran trayectoria en enseñanza,
@@ -45,23 +45,92 @@ export const HomeScreen = () => {
             </h4>
         </div>
 
-        <div className='row mt-5'>
-           <div className='col-4'>
+        <div className='row home__div1'>
+           <div className='col-4 mt-5'>
 
-            <i class="fa-solid fa-chalkboard-user fa-8x d-flex justify-content-center"></i>
+            <i className="fa-solid fa-chalkboard-user fa-8x d-flex justify-content-center"></i>
             <p className='home__paragraph mt-5'> Realizamos un seguimiento pedagógico y periódico del avance en tu
                 proceso de aprendizaje</p>
            </div>
-           <div className='col-4'>
-            <i class="fa-solid fa-school fa-8x d-flex justify-content-center"></i>
+           <div className='col-4 mt-5'>
+            <i className="fa-solid fa-school fa-8x d-flex justify-content-center"></i>
             <p className='home__paragraph mt-5'> Realizamos un seguimiento pedagógico y periódico del avance en tu
                 proceso de aprendizaje</p>
            </div>
-           <div className='col-4'>
-           <i class="fa-solid fa-graduation-cap fa-8x d-flex justify-content-center"></i>
+           <div className='col-4 mt-5'>
+           <i className="fa-solid fa-graduation-cap fa-8x d-flex justify-content-center"></i>
            <p className='home__paragraph mt-5'> Realizamos un seguimiento pedagógico y periódico del avance en tu
                 proceso de aprendizaje</p>
            </div>
+        </div>
+
+        <div className='row home__div2'>
+            
+            <div className='col-6 mt-5 home__picture2 mt-5'>
+            </div>
+
+            <div className='col-6 mt-5 home__main-content mt-5'>
+                <h1>
+                    Aprende ingles facil!
+                </h1>
+                <ul>
+                    <li><i className="fa-solid fa-bullseye me-3"></i>1-on-1 lessons in more than 150 languages</li>
+                    <li><i className="fa-solid fa-bullseye me-3"></i>Practice for free with the className community</li>
+                    <li><i className="fa-solid fa-bullseye me-3"></i>Take learning beyond the className</li>
+                </ul>
+                <button
+                    className='btn btn-primary'
+                    onClick={handleContact}
+                >
+                    Contactanos!
+                </button>
+            </div>
+
+        </div>
+
+        <div className='row home__div2'>
+            
+            <h1 className='mb-5 mt-5 d-flex justify-content-center'>Testimonios</h1>
+
+            <div className="card mb-3">
+                <div className="row g-0">
+                    <div className="col-md-4 home__profile1">
+                    </div>
+                    <div className="col-md-8">
+                    <div className="card-body">
+                        <h5 className="card-title">Card title</h5>
+                        <p className="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                        <p className="card-text"><small className="text-muted">Last updated 3 mins ago</small></p>
+                    </div>
+                    </div>
+                </div>
+            </div>
+            <div className="card mb-3">
+                <div className="row g-0">
+                    <div className="col-md-4 home__profile2">
+                    </div>
+                    <div className="col-md-8">
+                    <div className="card-body">
+                        <h5 className="card-title">Card title</h5>
+                        <p className="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                        <p className="card-text"><small className="text-muted">Last updated 3 mins ago</small></p>
+                    </div>
+                    </div>
+                </div>
+            </div>
+            <div className="card mb-3">
+                <div className="row g-0">
+                    <div className="col-md-4 home__profile3">
+                    </div>
+                    <div className="col-md-8">
+                    <div className="card-body">
+                        <h5 className="card-title">Card title</h5>
+                        <p className="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                        <p className="card-text"><small className="text-muted">Last updated 3 mins ago</small></p>
+                    </div>
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
   )

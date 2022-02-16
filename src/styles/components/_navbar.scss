@@ -1,0 +1,15 @@
+
+
+.navbar__container {
+    background-color: lighten($color: $mid-blue, $amount: 10);
+}
+
+.navbar__container a{
+    background-color: lighten($color: $mid-blue, $amount: 10);
+    color: white;
+}
+
+.navbar__container button{
+    background-color: lighten($color: $mid-blue, $amount: 10);
+    color: white;
+}

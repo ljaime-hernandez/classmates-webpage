@@ -1,7 +1,18 @@
 
+.home__main-content {
+    padding-left: 8%;
+}
+
 .home__main-content ul{
     list-style-type: none;
     padding-inline-start: 0px;
+}
+
+.home__paragraph {
+    text-align: justify;
+    margin-left: 10%;
+    margin-right: 10%;
+    flex-shrink: unset;
 }
 
 .home__picture {
@@ -11,6 +22,38 @@
     background-position: 50% 50%;
 }
 
-.home__paragraph {
-    text-align: justify;
+.home__picture2 {
+    background-image: url('../../assets/images/homepic2.jpg');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+}
+
+.home__profile1 {
+    background-image: url('../../assets/images/profile1.jpg');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+}
+
+.home__profile2 {
+    background-image: url('../../assets/images/profile2.jpg');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+}
+
+.home__profile3 {
+    background-image: url('../../assets/images/profile3.jpg');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+}
+
+.home__div1 {
+    background-color: lighten($color: $dark-yellow, $amount: 30);
+}
+
+.home__div2 {
+    background-color: lighten($color: $light-blue, $amount: 10);
 }
