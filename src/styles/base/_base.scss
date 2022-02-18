@@ -2,9 +2,11 @@
 * {
     font-family: 'Montserrat Alternates', sans-serif;
     margin: 0px;
+    font-weight: 800;
 }
 
 html, body {
     height: 100vh;
     width: 100vw;
+    box-sizing: border-box;
 }

@@ -3,3 +3,17 @@
 .footer__navigation {
     justify-content: space-between;
 }
+
+.footer__whatsapp {
+    position: fixed;
+    height: 70px;
+    bottom: 0;
+    display: flex;
+    width: 85%;
+    justify-content: flex-end;
+
+}
+
+.footer__whatsapp a{
+    color: green;
+}

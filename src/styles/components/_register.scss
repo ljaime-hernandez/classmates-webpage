@@ -1,0 +1,69 @@
+
+.register__main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0px;
+    height: 100vh; // view height
+    width: 100vw; // view width
+}
+
+.register__box-container {
+    background-color: white;
+    box-shadow: 5px 5px $dark-yellow;
+    border-radius: 10px;
+    padding: 20px;
+    width: 50vw;
+    border-style: outset;
+    box-sizing: content-box;
+    
+    textarea {
+        height: auto;
+    }
+}
+
+.register__title {
+    // the scss library allow us to darken colors by 
+    // placing the desired color along with an amount parameter 
+    // in a darken function
+    color: darken($color: $dark-blue, $amount: 20);
+    margin-bottom: 10px;
+}
+
+.register__input {
+    color: $dark-blue;
+    border: 0px;
+    border-bottom: 1px solid $light-blue;
+    font-size: 15px;
+    height: 20px;
+    width: 100%;
+    padding-bottom: 15px;
+    padding-top: 15px;
+    
+    transition: border-bottom .3s ease;
+
+    // the & here would do the same as declaring the focus for this
+    // class outside ('.auth__input:focus' on a normal css file)
+    &:focus {
+        border-bottom: 1px solid $dark-blue;
+        outline: none;
+    }
+}
+
+.register__alert-error {
+    background-color: red;
+    border-radius: 5px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+    padding: 5px;
+}
+
+button {
+    display: flex;
+}
+
+.link {
+    display: flex;
+}

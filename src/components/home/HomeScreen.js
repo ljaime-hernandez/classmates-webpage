@@ -48,17 +48,17 @@ export const HomeScreen = () => {
         <div className='row'>
            <div className='col-4 mt-5'>
 
-            <i className="fa-solid fa-chalkboard-user fa-8x d-flex justify-content-center"></i>
+            <i className="fa-solid fa-chalkboard-user fa-6x d-flex justify-content-center"></i>
             <p className='home__paragraph mt-5'> Realizamos un seguimiento pedagógico y periódico del avance en tu
                 proceso de aprendizaje</p>
            </div>
            <div className='col-4 mt-5'>
-            <i className="fa-solid fa-school fa-8x d-flex justify-content-center"></i>
+            <i className="fa-solid fa-school fa-6x d-flex justify-content-center"></i>
             <p className='home__paragraph mt-5'> Realizamos un seguimiento pedagógico y periódico del avance en tu
                 proceso de aprendizaje</p>
            </div>
            <div className='col-4 mt-5'>
-           <i className="fa-solid fa-graduation-cap fa-8x d-flex justify-content-center"></i>
+           <i className="fa-solid fa-graduation-cap fa-6x d-flex justify-content-center"></i>
            <p className='home__paragraph mt-5'> Realizamos un seguimiento pedagógico y periódico del avance en tu
                 proceso de aprendizaje</p>
            </div>

@@ -1,6 +1,7 @@
 
 .home__main-content {
     padding-left: 8%;
+    color: darken($color: $dark-yellow, $amount: 15);
 }
 
 .home__main-content ul{
@@ -13,6 +14,7 @@
     margin-left: 10%;
     margin-right: 10%;
     flex-shrink: unset;
+    color: darken($color: $dark-yellow, $amount: 15);
 }
 
 .home__picture {
@@ -50,10 +52,27 @@
     background-position: 50% 50%;
 }
 
-.home__div1 {
-    background-color: lighten($color: $dark-yellow, $amount: 30);
+.fa-solid {
+    color: $dark-blue;
 }
 
-.home__div2 {
-    background-color: lighten($color: $light-blue, $amount: 10);
+ul li{
+    margin-bottom: 10px;
+}
+
+h1 {
+    margin-bottom: 20px;
+    color: $dark-blue;
+}
+
+h4 {
+    color: darken($color: $dark-yellow, $amount: 15);
+}
+
+.card-title {
+    color: $dark-blue;
+}
+
+.card-text {
+    color: darken($color: $dark-yellow, $amount: 15);
 }
