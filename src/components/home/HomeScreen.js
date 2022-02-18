@@ -10,7 +10,7 @@ export const HomeScreen = () => {
 
   return (
     <div>
-        <div className='row home__div1'>
+        <div className='row'>
             <div className='col-6 mt-5 home__main-content'>
                 <h1>
                     Aprende ingles facil!
@@ -28,12 +28,12 @@ export const HomeScreen = () => {
                 </button>
             </div>
 
-            <div className='col-6 mt-5 home__picture'>
+            <div className='col-6 mt-3 mb-2 home__picture'>
             </div>
 
         </div>
 
-        <div className='row home__div2'>
+        <div className='row'>
            <h1 className='mb-5 mt-5 d-flex justify-content-center'>Docentes Expertos</h1>
            <h4 className='home__paragraph'>
                 Contamos con docentes titulados, cuidadosamente seleccionados por sus
@@ -45,7 +45,7 @@ export const HomeScreen = () => {
             </h4>
         </div>
 
-        <div className='row home__div1'>
+        <div className='row'>
            <div className='col-4 mt-5'>
 
             <i className="fa-solid fa-chalkboard-user fa-8x d-flex justify-content-center"></i>
@@ -64,7 +64,7 @@ export const HomeScreen = () => {
            </div>
         </div>
 
-        <div className='row home__div2'>
+        <div className='row'>
             
             <div className='col-6 mt-5 home__picture2 mt-5'>
             </div>
@@ -88,7 +88,7 @@ export const HomeScreen = () => {
 
         </div>
 
-        <div className='row home__div2'>
+        <div className='row'>
             
             <h1 className='mb-5 mt-5 d-flex justify-content-center'>Testimonios</h1>
 
