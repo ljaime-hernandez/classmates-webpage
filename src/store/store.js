@@ -1,5 +1,6 @@
 import { createStore, combineReducers, applyMiddleware, compose } from 'redux';
 import thunk from 'redux-thunk';
+import { authReducer } from '../reducers/authReducer';
 import { uiReducer } from '../reducers/uiReducer';
 
 const composeEnhancers = (typeof window !== 'undefined' && window.__REDUX_DEVTOOLS_EXTENSION_COMPOSE__) || compose;
@@ -7,7 +8,8 @@ const composeEnhancers = (typeof window !== 'undefined' && window.__REDUX_DEVTOO
 // the combineReducers method will allow us to have more than one reducer in the
 // project
 const reducers = combineReducers({
-    ui: uiReducer
+    ui: uiReducer,
+    auth: authReducer
 });
 
 // the createStore method will contain all the reducers in our webpage, along with the

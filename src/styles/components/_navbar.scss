@@ -13,3 +13,10 @@
     background-color: lighten($color: $mid-blue, $amount: 10);
     color: white;
 }
+
+.navbar__icon {
+    background-image: url('../../assets/Transparent/Artboard_1.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+}

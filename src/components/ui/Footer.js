@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 
 export const Footer = () => {
   return (
@@ -8,11 +9,31 @@ export const Footer = () => {
   <div className="col">
       <h5>Section</h5>
       <ul className="nav flex-column">
-        <li className="nav-item mb-2"><a href="home" className="nav-link p-0 text-muted">Home</a></li>
-        <li className="nav-item mb-2"><a href="home" className="nav-link p-0 text-muted">Features</a></li>
-        <li className="nav-item mb-2"><a href="home" className="nav-link p-0 text-muted">Pricing</a></li>
-        <li className="nav-item mb-2"><a href="home" className="nav-link p-0 text-muted">FAQs</a></li>
-        <li className="nav-item mb-2"><a href="home" className="nav-link p-0 text-muted">About</a></li>
+
+            <Link 
+                to="/"
+            >
+                      <li className="nav-item mb-2 nav-link p-0 text-muted">Home</li>
+            </Link>
+
+            <Link 
+                to="teachers"
+            >
+                      <li className="nav-item mb-2 nav-link p-0 text-muted">Teachers</li>
+            </Link>
+
+            <Link 
+                to="about"
+            >
+                      <li className="nav-item mb-2 nav-link p-0 text-muted">About</li>
+            </Link>
+
+            <Link 
+                to="contact"
+            >
+                      <li className="nav-item mb-2 nav-link p-0 text-muted">Contact</li>
+            </Link>
+
       </ul>
     </div>
 

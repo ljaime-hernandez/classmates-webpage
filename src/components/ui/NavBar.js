@@ -6,6 +6,8 @@ export const NavBar = () => {
     return (
         <nav className="navbar navbar-expand-sm navbar__container">
             
+            <div className='mt-3 mb-2 navbar__icon'></div>
+
             <Link 
                 className="navbar-brand ms-5" 
                 to="/"

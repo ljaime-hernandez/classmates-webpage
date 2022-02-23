@@ -1,5 +1,5 @@
 
-.register__main {
+.contact__main {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -8,7 +8,7 @@
     width: 100vw; // view width
 }
 
-.register__box-container {
+.contact__box-container {
     background-color: white;
     box-shadow: 5px 5px $dark-yellow;
     border-radius: 10px;
@@ -22,7 +22,7 @@
     }
 }
 
-.register__title {
+.contact__title {
     // the scss library allow us to darken colors by 
     // placing the desired color along with an amount parameter 
     // in a darken function
@@ -30,7 +30,7 @@
     margin-bottom: 10px;
 }
 
-.register__input {
+.contact__input {
     color: $dark-blue;
     border: 0px;
     border-bottom: 1px solid $light-blue;
@@ -50,8 +50,8 @@
     }
 }
 
-.register__alert-error {
-    background-color: red;
+.contact__alert-error {
+    background-color: lighten($color: red, $amount: 20);
     border-radius: 5px;
     color: white;
     display: flex;

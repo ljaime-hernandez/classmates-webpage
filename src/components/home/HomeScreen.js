@@ -1,12 +1,10 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 
 
 export const HomeScreen = () => {
 
-    const handleContact = () => {
-
-    }
 
   return (
     <div>
@@ -20,12 +18,17 @@ export const HomeScreen = () => {
                     <li><i className="fa-solid fa-bullhorn me-3"></i>Practice for free with the className community</li>
                     <li><i className="fa-solid fa-bullhorn me-3"></i>Take learning beyond the className</li>
                 </ul>
-                <button
-                    className='btn btn-primary'
-                    onClick={handleContact}
-                >
-                    Contactanos!
-                </button>
+                <Link 
+                to="contact"
+            >
+                <div className='home__button'>
+                    <button
+                        className='btn btn-primary'
+                    >
+                        Contactanos!
+                    </button>
+                </div>
+            </Link>
             </div>
 
             <div className='col-6 mt-3 mb-2 home__picture'>
@@ -78,12 +81,19 @@ export const HomeScreen = () => {
                     <li><i className="fa-solid fa-bullseye me-3"></i>Practice for free with the className community</li>
                     <li><i className="fa-solid fa-bullseye me-3"></i>Take learning beyond the className</li>
                 </ul>
-                <button
-                    className='btn btn-primary'
-                    onClick={handleContact}
-                >
-                    Contactanos!
-                </button>
+
+                <Link 
+                to="contact"
+            >
+                <div className='home__button'>
+                    <button
+                        className='btn btn-primary'
+                    >
+                        Contactanos!
+                    </button>
+                </div>
+            </Link>
+
             </div>
 
         </div>

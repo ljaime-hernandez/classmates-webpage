@@ -1,10 +1,13 @@
 import React from 'react'
-import { useSelector } from 'react-redux';
+import validator from 'validator';
+import { useDispatch, useSelector } from 'react-redux';
 import { Link } from 'react-router-dom';
+import { removeError, setError } from '../../actions/ui';
 import { useForm } from '../../hooks/useForm';
 
 export const ContactScreen = () => {
 
+    const dispatch = useDispatch();
 
     const {msgError} = useSelector( state => state.ui );
 
@@ -27,26 +30,26 @@ export const ContactScreen = () => {
     
       const isFormValid = () => {
     
-        // if(name.trim().length === 0){
-        //   dispatch(setError("The name input is incorrect"))
-        //   return false;
-        // } else if ( !validator.isEmail(email)){
-        //   dispatch(setError("The email input is incorrect"))
-        //   return false;
-        // } else if( password !== password2 || password2.length < 5){
-        //   dispatch(setError("Password should be longer than 4 characters"))
-        //   return false;
-        // }
+        if(name.trim().length === 0){
+          dispatch(setError("The name input is incorrect"))
+          return false;
+        } else if ( !validator.isEmail(email)){
+          dispatch(setError("The email input is incorrect"))
+          return false;
+        } else if( !validator.isMobilePhone(phone)){
+          dispatch(setError("The phone input is incorrect"))
+          return false;
+        }
     
-        // dispatch(removeError())
-        // return true;
+        dispatch(removeError())
+        return true;
       }
 
   return (
-    <div className='register__main'>
-        <div className='register__box-container'>
+    <div className='contact__main'>
+        <div className='contact__box-container'>
                     
-            <h3 className="register__title">Contactanos</h3>
+            <h3 className="contact__title">Contactanos</h3>
 
             <form 
             onSubmit={handleRegister}
@@ -55,7 +58,7 @@ export const ContactScreen = () => {
 
              {
                 msgError &&
-                (<div className="auth__alert-error">
+                (<div className="contact__alert-error">
                 {msgError}
                 </div>)
             }
@@ -64,7 +67,7 @@ export const ContactScreen = () => {
                 type="text"
                 placeholder="Name"
                 name="name"
-                className="register__input"
+                className="contact__input"
                 autoComplete="off"
                 value={name}
                 onChange={handleInputChange}
@@ -75,7 +78,7 @@ export const ContactScreen = () => {
                 type="text"
                 placeholder="Email"
                 name="email"
-                className="register__input"
+                className="contact__input"
                 autoComplete="off"
                 value={email}
                 onChange={handleInputChange}
@@ -85,7 +88,7 @@ export const ContactScreen = () => {
                 type="text"
                 placeholder="Phone"
                 name="phone"
-                className="register__input"
+                className="contact__input"
                 value={phone}
                 onChange={handleInputChange}       
             />
@@ -93,10 +96,11 @@ export const ContactScreen = () => {
             <textarea
                 rows="4" 
                 cols="50"
+                maxLength="500"
                 type="text"
                 placeholder="write something"
                 name="text"
-                className="register__input"      
+                className="contact__input"      
                 value={text}
                 onChange={handleInputChange} 
             />
