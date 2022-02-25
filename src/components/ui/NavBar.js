@@ -43,6 +43,12 @@ export const NavBar = () => {
                     >
                         Contactanos
                     </NavLink>
+                    <NavLink 
+                        className={({isActive}) => "nav-item nav-link" + (isActive ? ' active' : '')} 
+                        to="/rates"
+                    >
+                        Tarifas
+                    </NavLink>
                 </div>
             </div>
 
