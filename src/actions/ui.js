@@ -13,14 +13,14 @@ export const removeError = () => {
     }
 }
 
-export const startLoading = () => {
+export const englishLanguage = () => {
     return {
-        type :types.uiStartLoading
+        type :types.englishLanguage
     }
 }
 
-export const finishLoading = () => {
+export const spanishLanguage = () => {
     return {
-        type :types.uiFinishLoading
+        type :types.spanishLanguage
     }
 }

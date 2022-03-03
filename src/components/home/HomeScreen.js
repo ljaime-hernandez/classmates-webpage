@@ -1,17 +1,24 @@
 import React from 'react';
+import { useSelector } from 'react-redux';
 import { Link } from 'react-router-dom';
 
 
 
 export const HomeScreen = () => {
 
+    const {ui} = useSelector(state => state);
+    const {english} = ui;
 
   return (
     <div>
         <div className='row'>
             <div className='col-6 mt-5 home__main-content'>
                 <h1>
-                    Aprende ingles facil!
+                    {
+                        english
+                        ?   "Aprende lenguajes facil!"
+                        :   "Learn  languages easily!"
+                    }
                 </h1>
                 <ul>
                     <li><i className="fa-solid fa-bullhorn me-3"></i>1-on-1 lessons in more than 150 languages</li>

@@ -1,28 +1,35 @@
 import React from 'react';
+import { useDispatch } from 'react-redux';
 import { Link, NavLink } from 'react-router-dom';
+import { englishLanguage, spanishLanguage } from '../../actions/ui';
 
 export const NavBar = () => {
+
+    const dispatch = useDispatch();
+
+    const engLanguage = () => {
+        dispatch(englishLanguage());
+    }
+
+    const espLanguage = () => {
+        dispatch(spanishLanguage());
+    }
 
     return (
         <nav className="navbar navbar-expand-sm navbar__container">
             
-            <div className='mt-3 mb-2 navbar__icon'></div>
-
-            <Link 
-                className="navbar-brand ms-5" 
-                to="/"
-            >
-                ClassMates
-            </Link>
+            <div className='navbar__header'>
+                <div className='ms-2 navbar__icon'></div>
+                <Link 
+                    className="navbar-brand ms-2" 
+                    to="/"
+                >
+                    ClassMates
+                </Link>
+            </div>
 
             <div className="navbar-collapse">
                 <div className="navbar-nav">
-                    {/* <NavLink 
-                        className={({isActive}) => "nav-item nav-link" + (isActive ? ' active' : '')} 
-                        to="/marvel"
-                    >
-                        Marvel
-                    </NavLink> */}
              
                     <NavLink 
                         className={({isActive}) => "nav-item nav-link" + (isActive ? ' active' : '')} 
@@ -61,6 +68,18 @@ export const NavBar = () => {
                         { }
                     </span>
 
+                    <button 
+                        className="nav-item nav-link btn me-5"
+                        onClick={engLanguage}
+                    >
+                        Espanol
+                    </button>
+                    <button 
+                        className="nav-item nav-link btn me-5"
+                        onClick={espLanguage}
+                    >
+                        English
+                    </button>
                     <button 
                         className="nav-item nav-link btn me-5" 
                     >

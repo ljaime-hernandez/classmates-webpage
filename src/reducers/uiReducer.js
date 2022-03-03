@@ -1,11 +1,11 @@
 import { types } from "../types/types";
  
 const initialState = {
-    loading: false,
+    english: false,
     msgError: null
 }
 
- export const uiReducer = (state = initialState, action ) => {
+export const uiReducer = (state = initialState, action ) => {
 
     switch (action.type) {
         case types.uiSetError:
@@ -20,19 +20,19 @@ const initialState = {
                 msgError: null
             }
 
-        case types.uiStartLoading:
+        case types.englishLanguage:
             return {
                 ...state,
-                loading: true
+                english: true
             }
         
-        case types.uiFinishLoading:
+        case types.spanishLanguage:
             return {
                 ...state,
-                loading: false
+                english: false
             }
     
         default:
             return state;
     }
- }
+}

@@ -7,8 +7,11 @@ export const Footer = () => {
       <footer className="row row-cols-5 py-5 border-top footer__navigation">
 
       <div className="col">
-        <div className='mt-3 mb-2 navbar__icon'></div>
-          <h3>ClassMates</h3>
+        <div className='mt-3 mb-2 footer__header'>
+          <div className='navbar__icon'></div>
+          <h4 className='ms-2'>ClassMates</h4>
+        </div>
+
           <ul className="nav flex-column">
 
             <Link 
