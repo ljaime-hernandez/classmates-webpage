@@ -1,0 +1,7 @@
+.about__paragraph {
+    text-align: justify;
+    margin-left: 10%;
+    margin-right: 10%;
+    flex-shrink: unset;
+    color: darken($color: $dark-yellow, $amount: 15);
+}
