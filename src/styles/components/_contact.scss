@@ -4,7 +4,7 @@
     justify-content: center;
     align-items: center;
     margin: 0px;
-    height: 100vh; // view height
+    height: 80vh; // view height
     width: 100vw; // view width
 }
 
@@ -31,11 +31,12 @@
 }
 
 .contact__title {
-    // the scss library allow us to darken colors by 
-    // placing the desired color along with an amount parameter 
-    // in a darken function
     color: darken($color: $dark-blue, $amount: 20);
     margin-bottom: 10px;
+}
+
+.contact__list {
+    list-style-type: none;
 }
 
 .contact__input {

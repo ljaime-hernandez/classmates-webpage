@@ -1,11 +1,13 @@
 import React from 'react';
-import { useDispatch } from 'react-redux';
+import { useDispatch, useSelector } from 'react-redux';
 import { Link, NavLink } from 'react-router-dom';
 import { englishLanguage, spanishLanguage } from '../../actions/ui';
 
 export const NavBar = () => {
 
     const dispatch = useDispatch();
+    const {ui} = useSelector(state => state);
+    const {english} = ui;
 
     const engLanguage = () => {
         dispatch(englishLanguage());
@@ -35,26 +37,32 @@ export const NavBar = () => {
                         className={({isActive}) => "nav-item nav-link" + (isActive ? ' active' : '')} 
                         to="/teachers"
                     >
-                        Teachers
+                        {
+                            english
+                            ?   "Profesores"
+                            :   "Teachers"
+                        }
                     </NavLink>
 
                     <NavLink 
                         className={({isActive}) => "nav-item nav-link" + (isActive ? ' active' : '')} 
                         to="/about"
                     >
-                        About
+                        {
+                            english
+                            ?   "Conocenos"
+                            :   "About"
+                        }
                     </NavLink>
                     <NavLink 
                         className={({isActive}) => "nav-item nav-link" + (isActive ? ' active' : '')} 
                         to="/contact"
                     >
-                        Contactanos
-                    </NavLink>
-                    <NavLink 
-                        className={({isActive}) => "nav-item nav-link" + (isActive ? ' active' : '')} 
-                        to="/rates"
-                    >
-                        Tarifas
+                        {
+                            english
+                            ?   "Contacto"
+                            :   "Contact"
+                        }
                     </NavLink>
                 </div>
             </div>
@@ -62,23 +70,27 @@ export const NavBar = () => {
             <div className="navbar-collapse collapse w-100 order-3 dual-collapse2 d-flex justify-content-end">
                 <ul className="navbar-nav ml-auto">
 
-                    <span
-                        className='nav-item nav-link text-info'
-                    >
-                        { }
-                    </span>
-
                     <button 
                         className="nav-item nav-link btn me-5"
                         onClick={engLanguage}
                     >
-                        Espanol
+                        {
+                            english
+                            ?   "Español"
+                            :   "Spanish"
+                        }
+                        
                     </button>
                     <button 
                         className="nav-item nav-link btn me-5"
                         onClick={espLanguage}
                     >
-                        English
+                        {
+                            english
+                            ?   "Inglés"
+                            :   "English"
+                        }
+                        
                     </button>
                     <button 
                         className="nav-item nav-link btn me-5" 

@@ -2,8 +2,6 @@ import React from 'react';
 import { useSelector } from 'react-redux';
 import { Link } from 'react-router-dom';
 
-
-
 export const HomeScreen = () => {
 
     const {ui} = useSelector(state => state);
@@ -21,9 +19,19 @@ export const HomeScreen = () => {
                     }
                 </h1>
                 <ul>
-                    <li><i className="fa-solid fa-bullhorn me-3"></i>1-on-1 lessons in more than 150 languages</li>
-                    <li><i className="fa-solid fa-bullhorn me-3"></i>Practice for free with the className community</li>
-                    <li><i className="fa-solid fa-bullhorn me-3"></i>Take learning beyond the className</li>
+                    <li><i className="fa-solid fa-bullhorn me-3"></i>
+                        CLASSMATES evalúa tus aptitudes con el objetivo de asignarte el
+                        profesional más adecuado según tus necesidades y conocimientos
+                        previos.
+                    </li>
+                    <li><i className="fa-solid fa-bullhorn me-3"></i>
+                        Realizamos un seguimiento pedagógico y periódico del avance en tu
+                        proceso de aprendizaje.
+                    </li>
+                    <li><i className="fa-solid fa-bullhorn me-3"></i>
+                        Nuestras clases personalizadas significan más aprendizaje y menos
+                        distracción lo cual es ¡maravilloso!
+                    </li>
                 </ul>
                 <Link 
                 to="contact"
@@ -32,7 +40,11 @@ export const HomeScreen = () => {
                     <button
                         className='btn btn-primary'
                     >
-                        Contactanos!
+                        {
+                            english
+                            ?   "Contactanos!"
+                            :   "Contact us!"
+                        }
                     </button>
                 </div>
             </Link>
@@ -56,21 +68,29 @@ export const HomeScreen = () => {
         </div>
 
         <div className='row'>
-           <div className='col-4 mt-5'>
+            <div className='col-4 mt-5'>
 
             <i className="fa-solid fa-chalkboard-user fa-6x d-flex justify-content-center"></i>
-            <p className='home__paragraph mt-5'> Realizamos un seguimiento pedagógico y periódico del avance en tu
-                proceso de aprendizaje</p>
-           </div>
+            <p className='home__paragraph mt-5'> 
+                Hacemos traducciones de documentos oficiales y no oficiales tales como;
+                Tesis, textos escolares y/o universitarios, libros, diplomas, actas de
+                grado, etc.
+            </p>
+            </div>
            <div className='col-4 mt-5'>
             <i className="fa-solid fa-school fa-6x d-flex justify-content-center"></i>
-            <p className='home__paragraph mt-5'> Realizamos un seguimiento pedagógico y periódico del avance en tu
-                proceso de aprendizaje</p>
+            <p className='home__paragraph mt-5'> 
+                te preparamos para la presentación de exámenes internacionales tales
+                como: IELTS, TOEFL, CAMBRIDGE, MET.
+            </p>
            </div>
            <div className='col-4 mt-5'>
            <i className="fa-solid fa-graduation-cap fa-6x d-flex justify-content-center"></i>
-           <p className='home__paragraph mt-5'> Realizamos un seguimiento pedagógico y periódico del avance en tu
-                proceso de aprendizaje</p>
+           <p className='home__paragraph mt-5'> 
+                Participación en clubs de conversación para que practiques lo
+                aprendido con tus tutores, interactúes con otros estudiantes y pierdas
+                del miedo a hablar en otro idioma.
+            </p>
            </div>
         </div>
 
@@ -79,24 +99,35 @@ export const HomeScreen = () => {
             <div className='col-6 mt-5 home__picture2 mt-5'>
             </div>
 
-            <div className='col-6 mt-5 home__main-content mt-5'>
-                <h1>
-                    Aprende ingles facil!
+            <div className='col-6 mt-5 home__main-content'>
+                <h1 className='d-flex justify-content-center'>
+                    {
+                        english
+                        ?   "Economía"
+                        :   "Economic"
+                    }
+                    
                 </h1>
-                <ul>
-                    <li><i className="fa-solid fa-bullseye me-3"></i>1-on-1 lessons in more than 150 languages</li>
-                    <li><i className="fa-solid fa-bullseye me-3"></i>Practice for free with the className community</li>
-                    <li><i className="fa-solid fa-bullseye me-3"></i>Take learning beyond the className</li>
-                </ul>
-
+                <h4 className='home__paragraph'>
+                    Con CLASSMATES además de encontrar clases divertidas y de calidad,
+                    encuentras asesorías económicas. Además, puedes ahorrar costos
+                    adicionales de transporte, matrículas y materiales, ya que con nosotros
+                    solamente debes pagar por tus tutorías y estar listo para aventurarte en
+                    este maravilloso mundo del aprendizaje acompañado de la excelente
+                    orientación que te brinda CLASSMATES
+                </h4>
                 <Link 
                 to="contact"
             >
                 <div className='home__button'>
-                    <button
+                <button
                         className='btn btn-primary'
                     >
-                        Contactanos!
+                        {
+                            english
+                            ?   "Contactanos!"
+                            :   "Contact us!"
+                        }
                     </button>
                 </div>
             </Link>

@@ -46,19 +46,34 @@ export const ContactScreen = () => {
       }
 
   return (
+    <>
+    <h1 className='mb-5 mt-5 d-flex justify-content-center'>En CLASSMATES tambien te ayudamos con:</h1>
+      <ul className='contact__list contact__paragraph'>
+        <li><i className="fa-solid fa-bullseye me-3"></i>
+          Preparación para la presentación de exámenes internacionales tales
+          como: IELTS, TOEFL, CAMBRIDGE, MET.
+        </li>
+        <li><i className="fa-solid fa-bullseye me-3"></i>
+          Traducciones de documentos oficiales y no oficiales tales como;
+          Tesis, textos escolares y/o universitarios, libros, diplomas, actas de
+          grado, etc.
+        </li>
+        <li><i className="fa-solid fa-bullseye me-3"></i>Participación en clubs de conversación para que practiques lo
+          aprendido con tus tutores, interactúes con otros estudiantes y pierdas
+          del miedo a hablar en otro idioma.
+        </li>
+      </ul>
+
+    <h1 className='mb-5 mt-5 d-flex justify-content-center'>Demostracion Sin Compromiso!!</h1>
+        
+      <p className='contact__paragraph'>
+      En classmates tienes la opción de solicitar una clase demo sin ningún costo para que conozcas nuestra metodología 
+      y conozcas tu nivel de inglés antes de comenzar tu curso. Recuerda que tienes la opción de distrubuir las horas en 
+      los horarios que mejor se acomoden a tus necesidades.
+      </p>
+
     <div className='contact__main'>
 
-      <h1 className='mb-5 mt-5 d-flex justify-content-center'>En CLASSMATES tambien te ayudamos con:</h1>
-      <p className='about__paragraph'>
-      ✓ Preparación para la presentación de exámenes internacionales tales
-      como: IELTS, TOEFL, CAMBRIDGE, MET.
-      ✓ Traducciones de documentos oficiales y no oficiales tales como;
-      Tesis, textos escolares y/o universitarios, libros, diplomas, actas de
-      grado, etc.
-      ✓ Participación en clubs de conversación para que practiques lo
-      aprendido con tus tutores, interactúes con otros estudiantes y pierdas
-      del miedo a hablar en otro idioma.
-      </p>
         <div className='contact__box-container'>
                     
             <h3 className="contact__title">Contactanos</h3>
@@ -68,7 +83,7 @@ export const ContactScreen = () => {
             className='animate__animated animate__fadeIn' 
             >
 
-             {
+            {
                 msgError &&
                 (<div className="contact__alert-error">
                 {msgError}
@@ -133,6 +148,7 @@ export const ContactScreen = () => {
             </form>
 
     </div>
-</div>
+  </div>
+</>
   )
 }
