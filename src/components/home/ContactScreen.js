@@ -1,5 +1,6 @@
 import React from 'react'
 import validator from 'validator';
+import emailjs from '@emailjs/browser';
 import { useDispatch, useSelector } from 'react-redux';
 import { Link } from 'react-router-dom';
 import { removeError, setError } from '../../actions/ui';
@@ -11,7 +12,7 @@ export const ContactScreen = () => {
 
     const {msgError} = useSelector( state => state.ui );
 
-    const [values, handleInputChange] = useForm({
+    const [values, handleInputChange, reset] = useForm({
         name: '',
         email: '',
         phone: '',
@@ -20,13 +21,20 @@ export const ContactScreen = () => {
     
       const {name, email, phone, text} = values;
     
-      const handleRegister = (e) => {
+      const sendEmail = (e) => {
         e.preventDefault();
     
-        if(isFormValid()){
-          //startRegisterWithEmailPasswordName(email, password, name)
-        }
-      }
+        if (isFormValid()){
+
+        emailjs.sendForm('ClassMates', 'template_ky31mjc', e.target, 'oDnNgsMZnp_PKSk3u')
+          .then((result) => {
+              console.log(result.text);
+          }, (error) => {
+              console.log(error.text);
+          });
+          reset();
+      };
+    }
     
       const isFormValid = () => {
     
@@ -58,7 +66,8 @@ export const ContactScreen = () => {
           Tesis, textos escolares y/o universitarios, libros, diplomas, actas de
           grado, etc.
         </li>
-        <li><i className="fa-solid fa-bullseye me-3"></i>Participación en clubs de conversación para que practiques lo
+        <li><i className="fa-solid fa-bullseye me-3"></i>
+          Participación en clubs de conversación para que practiques lo
           aprendido con tus tutores, interactúes con otros estudiantes y pierdas
           del miedo a hablar en otro idioma.
         </li>
@@ -79,8 +88,8 @@ export const ContactScreen = () => {
             <h3 className="contact__title">Contactanos</h3>
 
             <form 
-            onSubmit={handleRegister}
-            className='animate__animated animate__fadeIn' 
+              onSubmit={sendEmail}
+              className='animate__animated animate__fadeIn' 
             >
 
             {
