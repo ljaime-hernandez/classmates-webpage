@@ -1,7 +1,16 @@
+h4 {
+    background-color: white;
+    border-radius: 10px;
+    border: outset;
+}
+
 .about__paragraph {
     text-align: justify;
     margin-left: 10%;
     margin-right: 10%;
     flex-shrink: unset;
     color: darken($color: $dark-yellow, $amount: 15);
+    background-color: white;
+    border-radius: 10px;
+    padding: 5px 10px 10px 5px;
 }

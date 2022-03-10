@@ -20,7 +20,7 @@ export const HomeScreen = () => {
                 </h1>
                 {
                     english
-                    ?   <ul>
+                    ?   <ul className='home__unordered-list'>
                             <li><i className="fa-solid fa-bullhorn me-3"></i>
                                 CLASSMATES evalúa tus aptitudes con el objetivo de asignarte el
                                 profesional más adecuado según tus necesidades y conocimientos
@@ -35,7 +35,7 @@ export const HomeScreen = () => {
                                 distracción lo cual es ¡maravilloso!
                             </li>
                         </ul>
-                    :   <ul>
+                    :   <ul className='home__unordered-list'>
                             <li><i className="fa-solid fa-bullhorn me-3"></i>
                                 CLASSMATES evaluates your skills with the aim of assigning you the 
                                 most suitable professional according to your needs, previous knowledge 
@@ -58,7 +58,7 @@ export const HomeScreen = () => {
             >
                 <div className='home__button'>
                     <button
-                        className='btn btn-primary'
+                        className='btn btn-info'
                     >
                         {
                             english
@@ -203,7 +203,7 @@ export const HomeScreen = () => {
             >
                 <div className='home__button'>
                 <button
-                        className='btn btn-primary'
+                        className='btn btn-info'
                     >
                         {
                             english
