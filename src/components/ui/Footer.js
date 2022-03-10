@@ -11,18 +11,18 @@ export const Footer = () => {
     <div className="container">
       <footer className="row row-cols-5 py-5 border-top footer__navigation">
 
-      <div className="col">
+      <div className="col footer__col">
         <div className='mt-3 mb-2 footer__header'>
-          <div className='navbar__icon'></div>
-          <h4 className='ms-2'>ClassMates</h4>
+        <div className='ms-4 navbar__icon'></div>
+        <div className='ms-2 navbar__classmates-icon'></div>
         </div>
 
-          <ul className="nav flex-column">
+          <ul className="nav flex-column footer__flex-column">
 
             <Link 
                 to="/"
             >
-              <li className="nav-item mb-2 nav-link p-0 text-muted">
+              <li className="nav-item mb-2 nav-link p-0">
                 {
                     english
                     ?   "Inicio"
@@ -34,7 +34,7 @@ export const Footer = () => {
             <Link 
                 to="teachers"
             >
-              <li className="nav-item mb-2 nav-link p-0 text-muted">
+              <li className="nav-item mb-2 nav-link p-0">
                 {
                   english
                   ?   "Profesores"
@@ -46,7 +46,7 @@ export const Footer = () => {
             <Link 
                 to="about"
             >
-              <li className="nav-item mb-2 nav-link p-0 text-muted">
+              <li className="nav-item mb-2 nav-link p-0">
                 {
                     english
                     ?   "Conocenos"
@@ -58,7 +58,7 @@ export const Footer = () => {
             <Link 
                 to="contact"
             >
-              <li className="nav-item mb-2 nav-link p-0 text-muted">
+              <li className="nav-item mb-2 nav-link p-0">
                 {
                     english
                     ?   "Contacto"
@@ -70,8 +70,8 @@ export const Footer = () => {
           </ul>
       </div>
 
-      <div className="col">
-        <p className="text-muted mb-3">
+      <div className="col footer__col">
+        <p className="mb-3">
           {
               english
               ?   "Siguenos"

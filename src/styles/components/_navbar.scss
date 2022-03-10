@@ -1,17 +1,26 @@
 
 
 .navbar__container {
-    background-color: lighten($color: $mid-blue, $amount: 10);
+    background-color: $dark-blue;
 }
 
 .navbar__container a{
-    background-color: lighten($color: $mid-blue, $amount: 10);
+    background-color: $dark-blue;
     color: white;
 }
 
 .navbar__container button{
-    background-color: lighten($color: $mid-blue, $amount: 10);
+    background-color: $dark-blue;
     color: white;
+}
+
+.navbar__classmates-icon{
+    background-image: url('../../assets/Cover1_reduced.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    height: 30px;
+    width: 120px;
 }
 
 .navbar__icon {
@@ -21,9 +30,41 @@
     background-position: 50% 50%;
     height: 30px;
     width: 30px;
+    border-radius: 5px;
 }
 
 .navbar__header {
     display: flex;
     align-items: center;
+}
+
+.navbar__esp-icon {
+    background-image: url('../../assets/images/spain-icon.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    height: 30px;
+    width: 30px;
+    margin: 5px;
+}
+
+.navbar__eng-icon{
+    background-image: url('../../assets/images/usa-icon.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    height: 30px;
+    width: 30px;
+    margin: 5px;
+}
+
+.navbar-nav {
+    align-items: center;
+}
+
+.nav-link {
+    align-items: center;
+    display: flex;
+    padding: 0%;
+    color: white;
 }

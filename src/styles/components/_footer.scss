@@ -1,17 +1,32 @@
 
 .container {
-    background-color: rgb(255, 255, 255);
+    background-color: $dark-blue;
     border-radius: 10px;
     border: outset;
+    color: white;
 }
 
 .footer__header {
     display: flex;
     align-items: baseline;
+    justify-content: center;
 }
 
 .footer__navigation {
-    justify-content: space-between;
+    display: flex;
+    align-items: baseline;
+    justify-content: center;
+}
+
+.footer__col {
+    text-align-last: center;
+    flex: auto;
+}
+
+.footer__flex-column {
+    text-align-last: center;
+    flex: auto;
+    align-content: center;
 }
 
 .footer__whatsapp {

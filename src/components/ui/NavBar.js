@@ -21,12 +21,12 @@ export const NavBar = () => {
         <nav className="navbar navbar-expand-sm navbar__container">
             
             <div className='navbar__header'>
-                <div className='ms-2 navbar__icon'></div>
+                <div className='ms-4 navbar__icon'></div>
                 <Link 
                     className="navbar-brand ms-2" 
                     to="/"
                 >
-                    ClassMates
+                    <div className='navbar__classmates-icon'></div>
                 </Link>
             </div>
 
@@ -70,10 +70,12 @@ export const NavBar = () => {
             <div className="navbar-collapse collapse w-100 order-3 dual-collapse2 d-flex justify-content-end">
                 <ul className="navbar-nav ml-auto">
 
+                    
                     <button 
                         className="nav-item nav-link btn me-5"
                         onClick={engLanguage}
                     >
+                        <div className="navbar__esp-icon"></div>
                         {
                             english
                             ?   "Español"
@@ -85,6 +87,7 @@ export const NavBar = () => {
                         className="nav-item nav-link btn me-5"
                         onClick={espLanguage}
                     >
+                        <div className="navbar__eng-icon"></div>
                         {
                             english
                             ?   "Inglés"
@@ -92,11 +95,7 @@ export const NavBar = () => {
                         }
                         
                     </button>
-                    <button 
-                        className="nav-item nav-link btn me-5" 
-                    >
-                        Logout
-                    </button>
+                    
                 </ul>
             </div>
         </nav>

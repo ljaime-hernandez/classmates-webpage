@@ -3,6 +3,7 @@ h1 {
     background-color: white;
     border-radius: 10px;
     border: outset;
+    font-weight: 900;
 }
 
 li {
@@ -100,4 +101,15 @@ h4 {
 
 .home__button {
     text-align-last: center;
+}
+
+.btn-info {
+    background-color: $dark-blue;
+    color: white;
+
+    &:hover {
+        color: darken($color: white, $amount: 20);
+        background-color: lighten($color: $dark-blue, $amount: 20);
+    }
+
 }
