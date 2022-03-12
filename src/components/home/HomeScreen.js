@@ -1,6 +1,7 @@
 import React from 'react';
 import { useSelector } from 'react-redux';
 import { Link } from 'react-router-dom';
+import { CarouselComponent } from './Carousel/CarouselComponent';
 
 export const HomeScreen = () => {
 
@@ -9,6 +10,8 @@ export const HomeScreen = () => {
 
   return (
     <div>
+        <CarouselComponent/>
+
         <div className='row'>
             <div className='col-6 mt-5 home__main-content'>
                 <h1>
@@ -52,22 +55,21 @@ export const HomeScreen = () => {
                         </ul>
                 }
                 
-                
                 <Link 
-                to="contact"
-            >
-                <div className='home__button'>
-                    <button
-                        className='btn btn-info'
-                    >
-                        {
-                            english
-                            ?   "Contactanos!"
-                            :   "Contact us!"
-                        }
-                    </button>
-                </div>
-            </Link>
+                    to="contact"
+                >
+                    <div className='home__button'>
+                        <button
+                            className='btn btn-info'
+                        >
+                            {
+                                english
+                                ?   "Contactanos!"
+                                :   "Contact us!"
+                            }
+                        </button>
+                    </div>
+                </Link>
             </div>
 
             <div className='col-6 mt-3 mb-2 home__picture'>
@@ -87,7 +89,7 @@ export const HomeScreen = () => {
 
             {
                 english
-                ?   <h4 className='home__paragraph'>
+                ?   <h5 className='home__paragraph'>
                         Contamos con docentes titulados, cuidadosamente seleccionados por sus
                         excelentes habilidades pedagógicas y su gran trayectoria en enseñanza,
                         quienes gracias a su compromiso y pasión por el mundo de la educación
@@ -101,8 +103,8 @@ export const HomeScreen = () => {
                         Nuestros profesionales cuentan con una gran variedad de materiales y
                         actividades didácticas para que así puedas disfrutar de tu proceso de
                         aprendizaje y puedas afianzar aún más tus conocimientos.    
-                    </h4>
-                :   <h4 className='home__paragraph'>
+                    </h5>
+                :   <h5 className='home__paragraph'>
                         We have qualified teachers, carefully selected because of their excellent 
                         pedagogical skills and their great teaching experience, who, thanks to 
                         their commitment and passion for the world of education and languages, 
@@ -115,7 +117,7 @@ export const HomeScreen = () => {
                         best thing is that all your classes will be very dynamic. Our professionals 
                         have a wide variety of teaching materials and activities so that you can 
                         enjoy your learning process and further strengthen your knowledge.
-                    </h4>
+                    </h5>
             }
         </div>
 
@@ -182,21 +184,21 @@ export const HomeScreen = () => {
                 </h1>
                 {
                     english
-                    ?   <h4 className='home__paragraph'>
+                    ?   <h5 className='home__paragraph'>
                             Con CLASSMATES además de encontrar clases divertidas y de calidad,
                             encuentras asesorías económicas. Además, puedes ahorrar costos
                             adicionales de transporte, matrículas y materiales, ya que con nosotros
                             solamente debes pagar por tus tutorías y estar listo para aventurarte en
                             este maravilloso mundo del aprendizaje acompañado de la excelente
                             orientación que te brinda CLASSMATES
-                        </h4>
-                    :   <h4 className='home__paragraph'>
+                        </h5>
+                    :   <h5 className='home__paragraph'>
                             With CLASSMATES in addition to finding fun and quality classes, you 
                             find economic advice. In addition, you can save additional transportation 
                             costs, tuition and materials, since with us you only have to pay for your 
                             tutorials and be ready to venture into this wonderful world of learning 
                             accompanied by the excellent guidance that CLASSMATES provides you.
-                        </h4>
+                        </h5>
                 }
                 <Link 
                 to="contact"

@@ -73,7 +73,7 @@ export const ContactScreen = () => {
     <h1 className='mb-5 mt-5 d-flex justify-content-center'>
       {
           english
-          ?   "En CLASSMATES tambien te ayudamos con:"
+          ?   "En CLASSMATES también te ayudamos con:"
           :   "In CLASSMATES we also help you with:"
       }   
     </h1>
@@ -111,28 +111,6 @@ export const ContactScreen = () => {
             </li>
           </ul>
     }   
-    
-    <h1 className='mb-5 mt-5 d-flex justify-content-center'>
-      {
-          english
-          ?   "Demostracion Sin Compromiso!!"
-          :   "Demonstration Without Commitment!! "
-      }
-    </h1>
-           
-    {
-        english
-        ?   <p className='contact__paragraph'>
-              En classmates tienes la opción de solicitar una clase demo sin ningún costo para que conozcas nuestra metodología 
-              y conozcas tu nivel de inglés antes de comenzar tu curso. Recuerda que tienes la opción de distribuir las horas en 
-              los horarios que mejor se acomoden a tus necesidades.
-            </p>
-        :   <p className='contact__paragraph'>
-              In classmates you have the option to request a demo class at no cost so that you can learn about our methodology
-              and know your English level before starting your course. Remember, you have the option to distribute the class 
-              hours to your comodity
-            </p>
-    }
 
     <div className='contact__main'>
 
@@ -207,7 +185,7 @@ export const ContactScreen = () => {
             className="link"
             to="/"
           >
-            {english ? "Volver a la pagina principal" : "Return to home page" }
+            {english ? "Volver a la página principal" : "Return to home page" }
           </Link>
         </form>
 

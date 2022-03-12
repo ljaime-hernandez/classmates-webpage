@@ -1,8 +1,10 @@
 
 * {
-    font-family: 'Montserrat Alternates', sans-serif;
+    //font-family: 'Montserrat Alternates', sans-serif;
+    font-family: 'Krub', sans-serif;
+    //font-family: 'Open Sans', sans-serif;
     margin: 0px;
-    font-weight: 800;
+    font-weight: 500;
 }
 
 html, body {
@@ -14,9 +16,4 @@ html, body {
     background-repeat: no-repeat;
     background-position: 50% 50%;
     background-attachment: fixed;
-}
-
-.row {
-    // background-color: lighten($color: white, $amount: 10);
-    // opacity: 0.2;
 }

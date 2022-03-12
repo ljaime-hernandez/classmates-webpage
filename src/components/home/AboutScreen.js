@@ -50,7 +50,7 @@ export const AboutScreen = () => {
       <h1 className='mb-5 mt-5 d-flex justify-content-center'>
         {
             english
-            ?   "¿Quienes somos?"
+            ?   "¿Quiénes somos?"
             :   "About us"
         }
       </h1>
@@ -86,7 +86,7 @@ export const AboutScreen = () => {
         <h1 className='mb-5 mt-5 d-flex justify-content-center'>
           {
               english
-              ?   "¿Por que CLASSMATES?"
+              ?   "¿Por qué CLASSMATES?"
               :   "¿Why CLASSMATES?"
           }
         </h1>

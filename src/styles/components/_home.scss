@@ -4,6 +4,7 @@ h1 {
     border-radius: 10px;
     border: outset;
     font-weight: 900;
+    text-align: -webkit-center;
 }
 
 li {
@@ -17,9 +18,24 @@ li {
     border: outset;
 }
 
+.home__first-page {
+    height: 90vh;
+    width: 90vw;
+    margin-inline: auto;
+    align-items: center;
+}
+
+.home__logo {
+    background-image: url('../../assets/Cover1_reduced.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    height: -webkit-fill-available;
+}
+
 .home__main-content {
     padding-left: 5%;
-    color: darken($color: $dark-yellow, $amount: 15);
+    color: darken($color: black, $amount: 15);
 }
 
 .home__main-content ul{
@@ -32,7 +48,7 @@ li {
     margin-left: 10%;
     margin-right: 10%;
     flex-shrink: unset;
-    color: darken($color: $dark-yellow, $amount: 15);
+    color: darken($color: black, $amount: 15);
     background-color: white;
     border-radius: 10px;
     border: outset;
