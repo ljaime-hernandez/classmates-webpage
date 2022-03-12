@@ -25,9 +25,9 @@ export const AboutScreen = () => {
                 En CLASSMATES, buscamos convertirnos en un aliado y una guía para
                 nuestros estudiantes, con el fin de que siempre se sientan cómodos y
                 motivados en sus tutorías. Sabemos que podemos proveer una educación de
-                alta calidad gracias a nuestra pasión por la educación. Así mismo, queremos
-                contribuir con el desarrollo de los procesos de aprendizaje en diferentes
-                áreas, de acuerdo a las necesidades académicas y/o intereses particulares de
+                alta calidad gracias a nuestra pasión por la educación. . Así mismo, queremos 
+                contribuir con el desarrollo de los procesos de aprendizaje de una segunda 
+                lengua, teniendo en cuenta las necesidades académicas y/o intereses particulares de
                 estudiantes de cualquier edad, brindando un excelente servicio personalizado
                 y acompañamiento por parte de nuestros docentes y nuestra compañía, con
                 el objetivo de incentivar y apoyar a los estudiantes a que alcancen sus metas
@@ -60,8 +60,8 @@ export const AboutScreen = () => {
           ?   <p className='about__paragraph'>
                 CLASSMATES se consolida a partir de la iniciativa de un grupo de
                 docentes, quienes, al evidenciar la necesidad de muchas personas de
-                encontrar un programa de asesorías confiable y que se adecúe a sus
-                expectativas en distintas áreas del conocimiento, decide implementar un
+                encontrar un programa de asesorías confiable y que se adecúe a sus expectativas 
+                al adquirir una segunda lengua, decide implementar un
                 proyecto que brinde apoyo en los procesos de aprendizaje de alta calidad a
                 nivel personalizado, ya sea para actividades escolares en todos los niveles
                 educativos o que respondan a intereses o gustos personales. CLASSMATES
@@ -146,8 +146,7 @@ export const AboutScreen = () => {
                   </li>
                   <li><i className="fa-solid fa-bullseye me-3"></i>
                     Si quieres aprender con amigos o familiares tienes la posibilidad de crear
-                    un grupo de estudio con el cual te sientas cómodo. De este modo, puedes
-                    obtener beneficios en tus tutorías.
+                    un grupo de estudio con el cual te sientas cómodo.
                   </li>
                 </ul>
             :   <ul className='contact__list about__paragraph'>
