@@ -49,7 +49,7 @@ export const Footer = () => {
               <li className="nav-item mb-2 nav-link p-0">
                 {
                     english
-                    ?   "Conocenos"
+                    ?   "Conócenos"
                     :   "About"
                 }
               </li>
@@ -74,7 +74,7 @@ export const Footer = () => {
         <p className="mb-3">
           {
               english
-              ?   "Siguenos"
+              ?   "Síguenos"
               :   "Follow us"
           }
           </p>

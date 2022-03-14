@@ -25,7 +25,7 @@ export const AboutScreen = () => {
                 En CLASSMATES, buscamos convertirnos en un aliado y una guía para
                 nuestros estudiantes, con el fin de que siempre se sientan cómodos y
                 motivados en sus tutorías. Sabemos que podemos proveer una educación de
-                alta calidad gracias a nuestra pasión por la educación. . Así mismo, queremos 
+                alta calidad gracias a nuestra pasión por la educación. Así mismo, queremos 
                 contribuir con el desarrollo de los procesos de aprendizaje de una segunda 
                 lengua, teniendo en cuenta las necesidades académicas y/o intereses particulares de
                 estudiantes de cualquier edad, brindando un excelente servicio personalizado

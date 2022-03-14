@@ -70,54 +70,13 @@ export const ContactScreen = () => {
 
   return (
   <>
-    <h1 className='mb-5 mt-5 d-flex justify-content-center'>
-      {
-          english
-          ?   "En CLASSMATES también te ayudamos con:"
-          :   "In CLASSMATES we also help you with:"
-      }   
-    </h1>
-    {
-      english
-      ?   <ul className='contact__list contact__paragraph'>
-            <li><i className="fa-solid fa-bullseye me-3"></i>
-              Preparación para la presentación de exámenes internacionales tales
-              como: IELTS, TOEFL, CAMBRIDGE, MET.
-            </li>
-            <li><i className="fa-solid fa-bullseye me-3"></i>
-              Traducciones de documentos oficiales y no oficiales tales como;
-              Tesis, textos escolares y/o universitarios, libros, diplomas, actas de
-              grado, etc.
-            </li>
-            <li><i className="fa-solid fa-bullseye me-3"></i>
-              Participación en clubs de conversación para que practiques lo
-              aprendido con tus tutores, interactúes con otros estudiantes y pierdas
-              del miedo a hablar en otro idioma.
-            </li>
-          </ul>
-      :   <ul className='contact__list contact__paragraph'>
-            <li><i className="fa-solid fa-bullseye me-3"></i>
-              Preparation for international exams such as: IELTS, TOEFL, CAMBRIDGE, 
-              MET.
-            </li>
-            <li><i className="fa-solid fa-bullseye me-3"></i>
-              Translations of official and unofficial documents such as; Theses, school 
-              and/or university texts, books, diplomas, degree certificates, etc.
-            </li>
-            <li><i className="fa-solid fa-bullseye me-3"></i>
-              Participation in conversation clubs so that you can practice what you have 
-              learned with your tutors, interact with other students and lose the fear 
-              of speaking in another language.
-            </li>
-          </ul>
-    }   
 
     <div className='contact__main'>
 
       <div className='contact__box-container'>
                   
         <h3 className="contact__title">
-          { english ? "Contactanos" : "Contact us"}
+          { english ? "Contáctanos" : "Contact us"}
         </h3>
 
         <form 
@@ -155,7 +114,7 @@ export const ContactScreen = () => {
 
           <input
               type="text"
-              placeholder={english ? "Telefono" : "Phone"}
+              placeholder={english ? "Teléfono" : "Phone"}
               name="phone"
               className="contact__input"
               value={phone}
@@ -167,7 +126,7 @@ export const ContactScreen = () => {
               cols="50"
               maxLength="500"
               type="text"
-              placeholder={english ? "Escribenos" : "Write your inquiry here"}
+              placeholder={english ? "Escríbenos" : "Write your inquiry here"}
               name="text"
               className="contact__input"      
               value={text}

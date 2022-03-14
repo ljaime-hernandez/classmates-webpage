@@ -15,23 +15,44 @@ export const SecondSlide = () => {
             english
             ?   <div className='col-6 mt-5'>
                     <h1 className='mb-5 mt-5 d-flex justify-content-center home__slide-title'>
-                        Clase demo de cortesía!!
+                        En CLASSMATES también te ayudamos con:
                     </h1>
-                    <p className='slide__paragraph'>
-                        En classmates tienes la opción de solicitar una clase demo sin ningún costo para que conozcas en el nivel en el 
-                        que te encuentras, en el idioma que quieres aprender antes de comenzar tu curso. Recuerda que tienes la opción 
-                        de distribuir las horas en los horarios que mejor se acomoden a tus necesidades.
-                    </p>
+                    <ul className='contact__list slide__paragraph'>
+                        <li><i className="fa-solid fa-bullseye me-3"></i>
+                        Preparación para la presentación de exámenes internacionales tales
+                        como: IELTS, TOEFL, CAMBRIDGE, MET.
+                        </li>
+                        <li><i className="fa-solid fa-bullseye me-3"></i>
+                        Traducciones de documentos oficiales y no oficiales tales como;
+                        Tesis, textos escolares y/o universitarios, libros, diplomas, actas de
+                        grado, etc.
+                        </li>
+                        <li><i className="fa-solid fa-bullseye me-3"></i>
+                        Participación en clubs de conversación para que practiques lo
+                        aprendido con tus tutores, interactúes con otros estudiantes y pierdas
+                        del miedo a hablar en otro idioma.
+                        </li>
+                    </ul>
                 </div>
             :   <div className='col-6 mt-5'>
                     <h1 className='mb-5 mt-5 d-flex justify-content-center home__slide-title'>
-                        Demonstration Without Commitment!!
+                        In CLASSMATES we also help you with:
                     </h1>
-                    <p className='slide__paragraph'>
-                        In classmates you have the option to request a demo class at no cost so that you can learn about our methodology
-                        and know your English level before starting your course. Remember, you have the option to distribute the class 
-                        hours to your commodity
-                    </p>
+                    <ul className='contact__list slide__paragraph'>
+                        <li><i className="fa-solid fa-bullseye me-3"></i>
+                        Preparation for international exams such as: IELTS, TOEFL, CAMBRIDGE, 
+                        MET.
+                        </li>
+                        <li><i className="fa-solid fa-bullseye me-3"></i>
+                        Translations of official and unofficial documents such as; Theses, school 
+                        and/or university texts, books, diplomas, degree certificates, etc.
+                        </li>
+                        <li><i className="fa-solid fa-bullseye me-3"></i>
+                        Participation in conversation clubs so that you can practice what you have 
+                        learned with your tutors, interact with other students and lose the fear 
+                        of speaking in another language.
+                        </li>
+                    </ul>
                 </div>
         }
     </div>

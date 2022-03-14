@@ -32,6 +32,17 @@ export const NavBar = () => {
 
             <div className="navbar-collapse">
                 <div className="navbar-nav">
+
+                <NavLink 
+                        className={({isActive}) => "nav-item nav-link" + (isActive ? ' active' : '')} 
+                        to="/"
+                    >
+                        {
+                            english
+                            ?   "Inicio"
+                            :   "Home"
+                        }
+                    </NavLink>
              
                     <NavLink 
                         className={({isActive}) => "nav-item nav-link" + (isActive ? ' active' : '')} 
@@ -50,7 +61,7 @@ export const NavBar = () => {
                     >
                         {
                             english
-                            ?   "Conocenos"
+                            ?   "Conócenos"
                             :   "About"
                         }
                     </NavLink>

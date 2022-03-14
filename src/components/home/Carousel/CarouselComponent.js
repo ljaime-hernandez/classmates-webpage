@@ -4,6 +4,7 @@ import { Link } from 'react-router-dom';
 import { useSelector } from 'react-redux';
 import { FirstSlide } from './slides/FirstSlide';
 import { SecondSlide } from './slides/SecondSlide';
+import { ThirdSlide } from './slides/ThirdSlide';
 
 export const CarouselComponent = () => {
 
@@ -16,29 +17,21 @@ export const CarouselComponent = () => {
             <FirstSlide/>
             <Carousel.Caption>
             <Link 
-            className="link carousel__caption mb-3"
+            className="link carousel__caption mb-4"
             to="/contact"
           >
-            {english ? "Volver a la página principal" : "Return to home page" }
+            {english ? "Contáctanos para saber mas!" : "Contact us to know more!" }
           </Link>
             </Carousel.Caption>
         </Carousel.Item>
         <Carousel.Item>
             <SecondSlide/>
             <Carousel.Caption>
-            <h5>Second slide label</h5>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
             </Carousel.Caption>
         </Carousel.Item>
         <Carousel.Item>
-            <img
-            className="d-block w-100"
-            src="holder.js/800x400?text=Third slide&bg=e5e5e5"
-            alt="Third slide"
-            />
+        <ThirdSlide/>
             <Carousel.Caption>
-            <h5>Third slide label</h5>
-            <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
             </Carousel.Caption>
         </Carousel.Item>
     </Carousel>

@@ -18,9 +18,9 @@ export const FirstSlide = () => {
                         Clase demo de cortesía!!
                     </h1>
                     <p className='slide__paragraph'>
-                        En classmates tienes la opción de solicitar una clase demo sin ningún costo para que conozcas en el nivel en el 
-                        que te encuentras, en el idioma que quieres aprender antes de comenzar tu curso. Recuerda que tienes la opción 
-                        de distribuir las horas en los horarios que mejor se acomoden a tus necesidades.
+                    En CLASSMATES tienes la opción de solicitar una clase DEMO sin ningún costo para que conozcas el nivel en el que te 
+                    encuentras, en el idioma que quieres aprender antes de comenzar tu curso. Recuerda que tienes la opción de distribuir 
+                    tus clases en los horarios que mejor se acomoden a tus necesidades.
                     </p>
                 </div>
             :   <div className='col-6 mt-5'>
