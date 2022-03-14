@@ -1,17 +1,26 @@
 import React from 'react'
 import Carousel from 'react-bootstrap/Carousel';
+import { Link } from 'react-router-dom';
+import { useSelector } from 'react-redux';
 import { FirstSlide } from './slides/FirstSlide';
 import { SecondSlide } from './slides/SecondSlide';
 
 export const CarouselComponent = () => {
+
+    const {ui} = useSelector(state => state);
+    const {english} = ui;
 
   return (
     <Carousel variant="dark" className="home__first-page">
         <Carousel.Item>
             <FirstSlide/>
             <Carousel.Caption>
-            <h5>First slide label</h5>
-            <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+            <Link 
+            className="link carousel__caption mb-3"
+            to="/contact"
+          >
+            {english ? "Volver a la página principal" : "Return to home page" }
+          </Link>
             </Carousel.Caption>
         </Carousel.Item>
         <Carousel.Item>

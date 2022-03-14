@@ -17,8 +17,8 @@ export const HomeScreen = () => {
                 <h1>
                     {
                         english
-                        ?   "Aprende lenguajes facil!"
-                        :   "Learn  languages easily!"
+                        ?   "¡Aprender idiomas con CLASSMATES es muy fácil!"
+                        :   "¡Learning languages with CLASSMATES it's easy!"
                     }
                 </h1>
                 {
@@ -64,7 +64,7 @@ export const HomeScreen = () => {
                         >
                             {
                                 english
-                                ?   "Contactanos!"
+                                ?   "Contáctanos!"
                                 :   "Contact us!"
                             }
                         </button>
@@ -209,7 +209,7 @@ export const HomeScreen = () => {
                     >
                         {
                             english
-                            ?   "Contactanos!"
+                            ?   "Contáctanos!"
                             :   "Contact us!"
                         }
                     </button>
