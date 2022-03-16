@@ -23,8 +23,7 @@ li {
     width: 100vw;
     margin-inline: auto;
     align-items: center;
-    background-color: rgba(128, 128, 128, 0.3);
-
+    background-color: rgba(128, 128, 128, 0.6);
 }
 
 .home__main-content {
@@ -124,10 +123,89 @@ h4 {
 
 }
 
-
-
 .home__slide-title {
     margin: 20px;
     background: none;
     border: none;
+}
+
+.testimony__icon {
+    background-image: url('../../assets/Thumbnail4.5.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    height: 30px;
+    width: 30px;
+    border-radius: 5px;
+    margin: 30px;
+}
+
+.home__chile-icon {
+    background-image: url('../../assets/images/chile.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    width: 30px;
+    border-radius: 5px;
+    margin-left: 10px;
+}
+
+.home__colombia-icon {
+    background-image: url('../../assets/images/colombia.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    width: 30px;
+    border-radius: 5px;
+    margin-left: 10px;
+}
+
+.home__argentina-icon {
+    background-image: url('../../assets/images/argentina.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    width: 30px;
+    border-radius: 5px;
+    margin-left: 10px;
+}
+
+.home__us-icon {
+    background-image: url('../../assets/images/united-states.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    width: 30px;
+    border-radius: 5px;
+    margin-left: 10px;
+}
+
+.home__canada-icon {
+    background-image: url('../../assets/images/canada.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    width: 30px;
+    border-radius: 5px;
+    margin-left: 10px;
+}
+
+.home__belgium-icon {
+    background-image: url('../../assets/images/belgium.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    width: 30px;
+    border-radius: 5px;
+    margin-left: 10px;
+}
+
+.home__testimony-alignment {
+    align-items: center;
+    margin: 30px;
+}
+
+.card-text:last-child {
+    margin-bottom: 0;
+    display: flex;
 }

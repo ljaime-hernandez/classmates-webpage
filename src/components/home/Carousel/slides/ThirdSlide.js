@@ -14,23 +14,21 @@ export const ThirdSlide = () => {
         {
             english
             ?   <div className='col-6 mt-5'>
-                    <h1 className='mb-5 mt-5 d-flex justify-content-center'>
-                        Clase demo de cortesía!!
+                    <h1 className='mb-5 mt-5 d-flex justify-content-center home__slide-title'>
+                        Aprender idiomas con Classmates es tu mejor decisión!
                     </h1>
-                    <p className='contact__paragraph'>
-                        En classmates tienes la opción de solicitar una clase demo sin ningún costo para que conozcas en el nivel en el 
-                        que te encuentras, en el idioma que quieres aprender antes de comenzar tu curso. Recuerda que tienes la opción 
-                        de distribuir las horas en los horarios que mejor se acomoden a tus necesidades.
+                    <p className='slide__paragraph'>
+                        Estudiar en CLASSMATES, es elegir la mejor opción para aprender inglés, francés o español. Avanzamos a tu ritmo de 
+                        aprendizaje y creamos contenido especial para ti dependiendo de tus objetivos.
                     </p>
                 </div>
             :   <div className='col-6 mt-5'>
-                    <h1 className='mb-5 mt-5 d-flex justify-content-center'>
-                        Demonstration Without Commitment!!
+                    <h1 className='mb-5 mt-5 d-flex justify-content-center home__slide-title'>
+                        Learning languages with CLASSMATES is your best decision!
                     </h1>
-                    <p className='contact__paragraph'>
-                        In classmates you have the option to request a demo class at no cost so that you can learn about our methodology
-                        and know your English level before starting your course. Remember, you have the option to distribute the class 
-                        hours to your commodity
+                    <p className='slide__paragraph'>
+                        Studying at CLASSMATES is choosing the best option to learn English, French or Spanish. We advance at your learning pace 
+                        and create special content for you depending on your goals.
                     </p>
                 </div>
         }

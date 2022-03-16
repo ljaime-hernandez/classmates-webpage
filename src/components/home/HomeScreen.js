@@ -219,118 +219,137 @@ export const HomeScreen = () => {
 
         </div>
 
-    {   
-    english
-
-        ?   <div className='row'>
+         <div className='row'>
                     
-                    <h1 className='mb-5 mt-5 d-flex justify-content-center'>Testimonios</h1>
+            <h1 className='mb-5 mt-5 d-flex justify-content-center'>Testimonios</h1>
 
-                    <div className="card mb-3">
-                        <div className="row g-0">
-                            <div className="col-md-4 home__profile1">
-                            </div>
-                            <div className="col-md-8">
-                            <div className="card-body">
-                                <p className="card-text">
-                                    Me han brindado herramientas creativas y personalizadas para estudiar. He podido dominar temas que para
-                                    mí eran muy difíciles gracias a que me han explicado temas complejos de una manera muy sencilla, y se 
-                                    han adaptado a mi estilo de aprendizaje. Anteriormente había realizado varios cursos de inglés, sin 
-                                    embargo, no sentía que avanzaba ya que los cursos no se acomodaban a mis necesidades y objetivos. 
-                                    Con classmates he avanzado muchísimo y además disfruto mucho las clases.
-                                </p>
-                            </div>
-                            </div>
-                        </div>
+            <div className="card mb-3">
+                <div className="row g-0 home__testimony-alignment">
+                    <div className="col-md-2 testimony__icon">
                     </div>
-                    <div className="card mb-3">
-                        <div className="row g-0">
-                            <div className="col-md-4 home__profile2">
-                            </div>
-                            <div className="col-md-8">
-                            <div className="card-body">
-                                <p className="card-text">
-                                    Me recomendaron tomar clases de inglés con Classmates por su forma sencilla, 
-                                    creativa y eficiente de enseñar. En poco tiempo logré avanzar mucho en mi nivel, ahora soy capaz de 
-                                    entender textos, elaborar oraciones y mejoré mucho mi pronunciación. Lo recomiendo mucho ya que crearon 
-                                    un programa especial para mi de acuerdo a mi nivel. Mi profe es muy paciente y explica los temas con 
-                                    mucha claridad. Ideal para quienes buscan aprender un nuevo idioma.
-                                </p>
-                            </div>
-                            </div>
-                        </div>
+                    <div className="col-md-10">
+                    <div className="card-body">
+                        <p className="card-text">
+                            Me han brindado herramientas creativas y personalizadas para estudiar. He podido dominar temas que para
+                            mí eran muy difíciles gracias a que me han explicado temas complejos de una manera muy sencilla, y se 
+                            han adaptado a mi estilo de aprendizaje. Anteriormente había realizado varios cursos de inglés, sin 
+                            embargo, no sentía que avanzaba ya que los cursos no se acomodaban a mis necesidades y objetivos. 
+                            Con classmates he avanzado muchísimo y además disfruto mucho las clases.
+                        </p>
+                        <p className="card-text"><small className="text-muted">Javier Saenz</small>
+                        <span className='home__chile-icon'/></p>
                     </div>
-                    <div className="card mb-3">
-                        <div className="row g-0">
-                            <div className="col-md-4 home__profile3">
-                            </div>
-                            <div className="col-md-8">
-                            <div className="card-body">
-                                <p className="card-text">
-                                    Estoy muy contento con mis tutorías de inglés, realmente lo recomiendo. Las 
-                                    clases están cuidadosamente preparadas con anticipación y hacen un trabajo minucioso, 
-                                    lo que me ha permitido aprender con excelentes herramientas. Siempre están muy atentos a 
-                                    mis objetivos y he recibido constante retroalimentación
-                                </p>
-                            </div>
-                            </div>
-                        </div>
                     </div>
                 </div>
-
-        :        <div className='row'>
-                    
-                    <h1 className='mb-5 mt-5 d-flex justify-content-center'>Testimonials</h1>
-
-                    <div className="card mb-3">
-                        <div className="row g-0">
-                            <div className="col-md-4 home__profile1">
-                            </div>
-                            <div className="col-md-8">
-                            <div className="card-body">
-                                <p className="card-text">
-                                    I have started my Spanish lessons with classmates 6 months ago. It has been a wonderful experience.
-                                    My teachers are patient, knowledgeable and have a real understanding on how to teach a foreign 
-                                    language. The process has also been fun and they follow my process constantly. I have learnt a lot!
-                                </p>
-                            </div>
-                            </div>
-                        </div>
+            </div>
+            <div className="card mb-3">
+                <div className="row g-0 home__testimony-alignment">
+                    <div className="col-md-2 testimony__icon">
                     </div>
-                    <div className="card mb-3">
-                        <div className="row g-0">
-                            <div className="col-md-4 home__profile2">
-                            </div>
-                            <div className="col-md-8">
-                            <div className="card-body">
-                                <p className="card-text">
-                                    We love CLASSMATES! They have amazing tutors. Since my 7 and 11 year old girls 
-                                    have had the opportunity to take these tutoring lessons, they've improved a lot with their Spanish. My 
-                                    girls are a little shy but I appreciate the teachers’ constant effort in fully engaging them and making 
-                                    each lesson fun, exciting and interesting. My family fully recommends these teachers.
-                                </p>
-                            
-                            </div>
-                            </div>
-                        </div>
+                    <div className="col-md-10">
+                    <div className="card-body">
+                        <p className="card-text">
+                            Me recomendaron tomar clases de inglés con Classmates por su forma sencilla, 
+                            creativa y eficiente de enseñar. En poco tiempo logré avanzar mucho en mi nivel, ahora soy capaz de 
+                            entender textos, elaborar oraciones y mejoré mucho mi pronunciación. Lo recomiendo mucho ya que crearon 
+                            un programa especial para mi de acuerdo a mi nivel. Mi profe es muy paciente y explica los temas con 
+                            mucha claridad. Ideal para quienes buscan aprender un nuevo idioma.
+                        </p>
+                        <p className="card-text"><small className="text-muted">Luisa Pedraza</small>
+                        <span className='home__colombia-icon'/></p>
                     </div>
-                    <div className="card mb-3">
-                        <div className="row g-0">
-                            <div className="col-md-4 home__profile3">
-                            </div>
-                            <div className="col-md-8">
-                            <div className="card-body">
-                                <p className="card-text">
-                                    As I needed to improve my English for work, during the last year CLASSMATES has helped me a lot. They are 
-                                    professional, supportive and kind. I really thank my teacher for the skills I have acquired and the 
-                                    always professional and respectful way she has given me feedback to enhance my Spanish language skills.
-                                </p>
-                            </div>
-                            </div>
-                        </div>
                     </div>
                 </div>
-        }
+            </div>
+            <div className="card mb-3">
+                <div className="row g-0 home__testimony-alignment">
+                <div className="col-md-2 testimony__icon">
+                    </div>
+                    <div className="col-md-10">
+                    <div className="card-body">
+                        <p className="card-text">
+                            Estoy muy contento con mis tutorías de inglés, realmente lo recomiendo. Las 
+                            clases están cuidadosamente preparadas con anticipación y hacen un trabajo minucioso, 
+                            lo que me ha permitido aprender con excelentes herramientas. Siempre están muy atentos a 
+                            mis objetivos y he recibido constante retroalimentación
+                        </p>
+                        <p className="card-text"><small className="text-muted">Andrez Felipe Ruiz</small>
+                        <span className='home__argentina-icon'/></p>
+                    </div>
+                    </div>
+                </div>
+            </div>
+            <div className="card mb-3">
+                <div className="row g-0 home__testimony-alignment">
+                    <div className="col-md-4 testimony__icon">
+                    </div>
+                    <div className="col-md-8">
+                    <div className="card-body">
+                        <p className="card-text">
+                            I have started my Spanish lessons with classmates 6 months ago. It has been a wonderful experience.
+                            My teachers are patient, knowledgeable and have a real understanding on how to teach a foreign 
+                            language. The process has also been fun and they follow my process constantly. I have learnt a lot!
+                        </p>
+                        <p className="card-text"><small className="text-muted">Gerry Yorden</small>
+                        <span className='home__us-icon'/></p>
+                    </div>
+                    </div>
+                </div>
+            </div>
+            <div className="card mb-3">
+                <div className="row g-0 home__testimony-alignment">
+                    <div className="col-md-4 testimony__icon">
+                    </div>
+                    <div className="col-md-8">
+                    <div className="card-body">
+                        <p className="card-text">
+                            We love CLASSMATES! They have amazing tutors. Since my 7 and 11 year old girls 
+                            have had the opportunity to take these tutoring lessons, they've improved a lot with their Spanish. My 
+                            girls are a little shy but I appreciate the teachers’ constant effort in fully engaging them and making 
+                            each lesson fun, exciting and interesting. My family fully recommends these teachers.
+                        </p>
+                        <p className="card-text"><small className="text-muted">Jaime Dee</small>
+                        <span className='home__canada-icon'/></p>
+                    </div>
+                    </div>
+                </div>
+            </div>
+            <div className="card mb-3">
+                <div className="row g-0 home__testimony-alignment">
+                    <div className="col-md-4 testimony__icon">
+                    </div>
+                    <div className="col-md-8">
+                    <div className="card-body">
+                        <p className="card-text">
+                            As I needed to improve my English for work, during the last year CLASSMATES has helped me a lot. They are 
+                            professional, supportive and kind. I really thank my teacher for the skills I have acquired and the 
+                            always professional and respectful way she has given me feedback to enhance my Spanish language skills.
+                        </p>
+                        <p className="card-text"><small className="text-muted">Leonard Joseph Baptiste</small>
+                        <span className='home__us-icon'/></p>
+                    </div>
+                    </div>
+                </div>
+            </div>
+                <div className="card mb-3">
+                <div className="row g-0 home__testimony-alignment">
+                    <div className="col-md-4 testimony__icon">
+                    </div>
+                    <div className="col-md-8">
+                    <div className="card-body">
+                        <p className="card-text">
+                        J’ai commencé les cours de Français avec Classmates. Mon professeur est très pédagogue et patient. 
+                        Il trouve toujours les supports qui m’intéressent le plus pour travailler le Français. et me fait 
+                        travailler sur la culture française.
+                        Je suis maintenant confortable pour tenir une conversation de la vie quotidienne.
+                        </p>
+                        <p className="card-text"><small className="text-muted">Salomé Maçon</small>
+                        <span className='home__belgium-icon'/></p>
+                    </div>
+                    </div>
+                </div>
+            </div>
+        </div>                
     </div>
   )
 }
