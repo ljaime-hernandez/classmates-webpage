@@ -8,7 +8,16 @@ export const FirstSlide = () => {
 
   return (
     <div className='row animate__animated animate__fadeIn home__first-page'>
-        <div className='col-12 col-md-6 slide__pic1'>
+        <div className='col-12 col-md-6'>
+            <div className='slide__pic1'>
+            </div>
+            <h5 className='mb-5 d-flex slide__slogan'>
+                {
+                    english
+                    ? "¡SIEMPRE GUIÁNDOTE, SIEMPRE APOYÁNDOTE!"
+                    : "ALWAYS GUIDING YOU, ALWAYS SUPPORTING YOU!"
+                }
+            </h5>
         </div>
                             
         {
@@ -28,8 +37,8 @@ export const FirstSlide = () => {
                         Enjoy a free trial class
                     </h1>
                     <p className='slide__paragraph'>
-                        In classmates you have the option to request a demo class at no cost so that you can learn about our methodology
-                        and know your English level before starting your course. Remember, you have the option to distribute the class 
+                        In CLASSMATES you have the option to request a demo class at no cost so that you can learn about our methodology
+                        and know your Spanish level before starting your course. Remember, you have the option to distribute the class 
                         hours to your commodity
                     </p>
                 </div>

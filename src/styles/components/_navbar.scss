@@ -78,3 +78,14 @@
     padding: 0%;
     color: white;
 }
+
+.dual-collapse2 {
+    display: flex-end !important;
+}
+
+@media screen and (max-width: 767px){
+    .dual-collapse2 {
+        display: flex !important;
+    }
+
+}

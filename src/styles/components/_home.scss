@@ -1,3 +1,7 @@
+.row {
+    align-items: center;
+    justify-content: space-around;
+}
 
 h1 {
     background-color: white;
@@ -9,6 +13,13 @@ h1 {
 
 li {
     padding-left: 5px;
+}
+
+.home__container {
+    background-color: unset !important;
+    border-radius: unset !important;
+    border: unset !important;
+    margin-top: 20px;
 }
 
 .home__unordered-list {
@@ -46,6 +57,7 @@ li {
     border-radius: 10px;
     border: outset;
     padding: 5px 10px 10px 5px;
+    width: auto;
 }
 
 .home__picture {
@@ -53,6 +65,7 @@ li {
     background-size: contain;
     background-repeat: no-repeat;
     background-position: 50% 50%;
+    height: 40vh;
 }
 
 .home__picture2 {
@@ -60,6 +73,7 @@ li {
     background-size: contain;
     background-repeat: no-repeat;
     background-position: 50% 50%;
+    height: 40vh;
 }
 
 .home__profile1 {

@@ -32,18 +32,6 @@ export const Footer = () => {
             </Link>
 
             <Link 
-                to="teachers"
-            >
-              <li className="nav-item mb-2 nav-link p-0">
-                {
-                  english
-                  ?   "Profesores"
-                  :   "Teachers"
-                }
-              </li>
-            </Link>
-
-            <Link 
                 to="about"
             >
               <li className="nav-item mb-2 nav-link p-0">

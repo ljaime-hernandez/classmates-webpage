@@ -47,16 +47,6 @@ export const NavBar = () => {
                     </NavLink>
                     <NavLink 
                         className={({isActive}) => "nav-item nav-link" + (isActive ? ' active' : '')} 
-                        to="/teachers"
-                    >
-                        {
-                            english
-                            ?   "Profesores"
-                            :   "Teachers"
-                        }
-                    </NavLink>
-                    <NavLink 
-                        className={({isActive}) => "nav-item nav-link" + (isActive ? ' active' : '')} 
                         to="/about"
                     >
                         {
