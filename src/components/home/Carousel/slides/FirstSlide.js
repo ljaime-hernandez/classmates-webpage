@@ -8,14 +8,14 @@ export const FirstSlide = () => {
 
   return (
     <div className='row animate__animated animate__fadeIn home__first-page'>
-        <div className='col-6 slide__pic1'>
+        <div className='col-12 col-md-6 slide__pic1'>
         </div>
                             
         {
             english
-            ?   <div className='col-6 mt-5'>
+            ?   <div className='col-12 col-md-6 mt-5'>
                     <h1 className='mb-5 mt-5 d-flex justify-content-center home__slide-title'>
-                        Clase demo de cortesía!!
+                        Clase demo de cortesía
                     </h1>
                     <p className='slide__paragraph'>
                     En CLASSMATES tienes la opción de solicitar una clase DEMO sin ningún costo para que conozcas el nivel en el que te 
@@ -23,9 +23,9 @@ export const FirstSlide = () => {
                     tus clases en los horarios que mejor se acomoden a tus necesidades.
                     </p>
                 </div>
-            :   <div className='col-6 mt-5'>
+            :   <div className='col-12 col-md-6 mt-5'>
                     <h1 className='mb-5 mt-5 d-flex justify-content-center home__slide-title'>
-                        Demonstration Without Commitment!!
+                        Enjoy a free trial class
                     </h1>
                     <p className='slide__paragraph'>
                         In classmates you have the option to request a demo class at no cost so that you can learn about our methodology

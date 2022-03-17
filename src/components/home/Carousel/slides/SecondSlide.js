@@ -8,12 +8,12 @@ export const SecondSlide = () => {
     
   return (
     <div className='row animate__animated animate__fadeIn home__first-page'>
-        <div className='col-6 slide__pic2'>
+        <div className='col-12 col-md-6 slide__pic2'>
         </div>
                             
         {
             english
-            ?   <div className='col-6 mt-5'>
+            ?   <div className='col-12 col-md-6 mt-5'>
                     <h1 className='mb-5 mt-5 d-flex justify-content-center home__slide-title'>
                         En CLASSMATES también te ayudamos con:
                     </h1>
@@ -34,7 +34,7 @@ export const SecondSlide = () => {
                         </li>
                     </ul>
                 </div>
-            :   <div className='col-6 mt-5'>
+            :   <div className='col-12 col-md-6 mt-5'>
                     <h1 className='mb-5 mt-5 d-flex justify-content-center home__slide-title'>
                         In CLASSMATES we also help you with:
                     </h1>

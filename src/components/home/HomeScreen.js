@@ -13,7 +13,7 @@ export const HomeScreen = () => {
         <CarouselComponent/>
 
         <div className='row'>
-            <div className='col-6 mt-5 home__main-content'>
+            <div className='col-12 col-md-6 home__main-content'>
                 <h1>
                     {
                         english
@@ -64,15 +64,15 @@ export const HomeScreen = () => {
                         >
                             {
                                 english
-                                ?   "Contáctanos!"
-                                :   "Contact us!"
+                                ?   "¡Contáctanos!"
+                                :   "¡Contact us!"
                             }
                         </button>
                     </div>
                 </Link>
             </div>
 
-            <div className='col-6 mt-3 mb-2 home__picture'>
+            <div className='col-12 col-md-6 mt-3 mb-2 home__picture'>
             </div>
 
         </div>
@@ -208,8 +208,8 @@ export const HomeScreen = () => {
                     >
                         {
                             english
-                            ?   "Contáctanos!"
-                            :   "Contact us!"
+                            ?   "¡Contáctanos!"
+                            :   "¡Contact us!"
                         }
                     </button>
                 </div>
@@ -221,7 +221,13 @@ export const HomeScreen = () => {
 
          <div className='row'>
                     
-            <h1 className='mb-5 mt-5 d-flex justify-content-center'>Testimonios</h1>
+            <h1 className='mb-5 mt-5 d-flex justify-content-center'>
+                {
+                    english
+                    ? "Testimonios"
+                    : "Testimonials"
+                }
+            </h1>
 
             <div className="card mb-3">
                 <div className="row g-0 home__testimony-alignment">
