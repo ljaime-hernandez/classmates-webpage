@@ -71,7 +71,7 @@ export const ContactScreen = () => {
   return (
   <>
 
-    <div className='contact__main'>
+    <div className='contact__main animate__animated animate__fadeIn'>
 
       <div className='contact__box-container'>
                   

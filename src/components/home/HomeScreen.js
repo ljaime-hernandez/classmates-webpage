@@ -92,15 +92,7 @@ export const HomeScreen = () => {
 
                 {
                     english
-                    ?   <h5 className='home__paragraph'>
-                            Contamos con docentes titulados, cuidadosamente seleccionados por sus
-                            excelentes habilidades pedagógicas y su gran trayectoria en enseñanza,
-                            quienes gracias a su compromiso y pasión por el mundo de la educación
-                            hacen de las tutorías online una excelente experiencia en todos los
-                            aspectos, cumpliendo siempre tus expectativas, resolviendo todas tus
-                            dudas y motivándote a mejorar.
-                            Tienes a tu disposición clases para todos los niveles: Infantil, Primaria,
-                            Bachillerato, Universidad y adultos.    
+                    ?   <h5 className='home__paragraph'>   
                             Nuestros docentes se encargan de que tus tutorías sean una experiencia
                             enriquecedora y lo mejor es que todas tus clases serán muy dinámicas.
                             Nuestros profesionales cuentan con una gran variedad de materiales y
@@ -108,14 +100,6 @@ export const HomeScreen = () => {
                             aprendizaje y puedas afianzar aún más tus conocimientos.    
                         </h5>
                     :   <h5 className='home__paragraph'>
-                            We have qualified teachers, carefully selected because of their excellent 
-                            pedagogical skills and their great teaching experience, who, thanks to 
-                            their commitment and passion for the world of education and languages, 
-                            make online tutoring an excellent experience in all aspects, always 
-                            meeting your expectations, solving all your doubts and motivating you 
-                            to improve.
-                            You have at your disposal classes for all levels: Infant, Primary, 
-                            Baccalaureate, University and adults.
                             Our teachers ensure that your tutorials are an enriching experience and the 
                             best thing is that all your classes will be very dynamic. Our professionals 
                             have a wide variety of teaching materials and activities so that you can 
@@ -204,7 +188,7 @@ export const HomeScreen = () => {
                                 accompanied by the excellent guidance that CLASSMATES provides you.
                             </h5>
                     }
-                    
+
                 <Link 
                     to="contact"
                 >
@@ -293,9 +277,9 @@ export const HomeScreen = () => {
             </div>
             <div className="card mb-3">
                 <div className="row g-0 home__testimony-alignment">
-                    <div className="col-md-4 testimony__icon">
+                    <div className="col-md-2 testimony__icon">
                     </div>
-                    <div className="col-md-8">
+                    <div className="col-md-10">
                     <div className="card-body">
                         <p className="card-text">
                             I have started my Spanish lessons with classmates 6 months ago. It has been a wonderful experience.
@@ -310,9 +294,9 @@ export const HomeScreen = () => {
             </div>
             <div className="card mb-3">
                 <div className="row g-0 home__testimony-alignment">
-                    <div className="col-md-4 testimony__icon">
+                    <div className="col-md-2 testimony__icon">
                     </div>
-                    <div className="col-md-8">
+                    <div className="col-md-10">
                     <div className="card-body">
                         <p className="card-text">
                             We love CLASSMATES! They have amazing tutors. Since my 7 and 11 year old girls 
@@ -328,9 +312,9 @@ export const HomeScreen = () => {
             </div>
             <div className="card mb-3">
                 <div className="row g-0 home__testimony-alignment">
-                    <div className="col-md-4 testimony__icon">
+                    <div className="col-md-2 testimony__icon">
                     </div>
-                    <div className="col-md-8">
+                    <div className="col-md-10">
                     <div className="card-body">
                         <p className="card-text">
                             As I needed to improve my English for work, during the last year CLASSMATES has helped me a lot. They are 
@@ -347,7 +331,7 @@ export const HomeScreen = () => {
                 <div className="row g-0 home__testimony-alignment">
                     <div className="col-md-4 testimony__icon">
                     </div>
-                    <div className="col-md-8">
+                    <div className="col-md-10">
                     <div className="card-body">
                         <p className="card-text">
                         J’ai commencé les cours de Français avec Classmates. Mon professeur est très pédagogue et patient. 

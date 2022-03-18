@@ -19,8 +19,8 @@ export const NavBar = () => {
     }
 
     return (
-        <Navbar collapseOnSelect expand="sm" className="navbar navbar__container" variant="dark">
-            <Container className="navbar navbar__container">
+        <Navbar collapseOnSelect expand="sm" className="navbar__container" variant="dark">
+            <Container className="navbar__container">
             <Navbar.Brand>
                     <div className='navbar__header'>
                     <div className='ms-4 navbar__icon'></div>
@@ -34,7 +34,7 @@ export const NavBar = () => {
                 </Navbar.Brand>
             <Navbar.Toggle aria-controls="responsive-navbar-nav" />
             <Navbar.Collapse id="responsive-navbar-nav">
-                <Nav className="me-auto">
+                <Nav>
                 <NavLink 
                         className={({isActive}) => "nav-item nav-link" + (isActive ? ' active' : '')} 
                         to="/"

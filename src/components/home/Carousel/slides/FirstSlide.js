@@ -15,7 +15,7 @@ export const FirstSlide = () => {
                 {
                     english
                     ? "¡SIEMPRE GUIÁNDOTE, SIEMPRE APOYÁNDOTE!"
-                    : "ALWAYS GUIDING YOU, ALWAYS SUPPORTING YOU!"
+                    : "¡ALWAYS GUIDING YOU, ALWAYS SUPPORTING YOU!"
                 }
             </h5>
         </div>

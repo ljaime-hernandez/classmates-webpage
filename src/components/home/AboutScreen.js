@@ -7,7 +7,7 @@ export const AboutScreen = () => {
   const {english} = ui;
 
   return (
-    <div>
+    <div className='animate__animated animate__fadeIn'>
       <h1 className='mb-5 mt-5 d-flex justify-content-center'>
         {
             english
@@ -15,6 +15,8 @@ export const AboutScreen = () => {
             :   "¿What do we believe in?"
         }  
       </h1>
+
+      <div className='about__pic1'></div>
 
       {
         english
@@ -55,6 +57,8 @@ export const AboutScreen = () => {
         }
       </h1>
 
+      <div className='about__pic2'></div>
+
       {
           english
           ?   <p className='about__paragraph'>
@@ -90,6 +94,8 @@ export const AboutScreen = () => {
               :   "¿Why CLASSMATES?"
           }
         </h1>
+
+        <div className='about__pic3'></div>
         
         <h4 className='mb-5 mt-5 d-flex justify-content-center'>
           {
@@ -98,7 +104,6 @@ export const AboutScreen = () => {
               :   "Convenience:"
           }
         </h4>
-      
 
         {
             english
@@ -172,6 +177,36 @@ export const AboutScreen = () => {
                   </li>
                 </ul>
         }
+
+<h1 className='mb-5 mt-5 d-flex justify-content-center'>
+                    {
+                        english
+                        ?   "Docentes"
+                        :   "Teachers"
+                    }
+                </h1>
+
+                <div className='about__pic4'></div>
+
+                {
+                    english
+                    ?   <h5 className='about__paragraph'>   
+                          Contamos con docentes titulados, cuidadosamente seleccionados por sus excelentes habilidades 
+                          pedagógicas y su gran trayectoria en enseñanza, quienes gracias a su compromiso y pasión por 
+                          el mundo de la educación hacen de las tutorías online una excelente experiencia 
+                          en todos los aspectos, cumpliendo siempre tus expectativas, resolviendo todas tus dudas y 
+                          motivándote a mejorar.
+                          Tienes a tu disposición clases para todos los niveles: Infantil, Primaria, Bachillerato, 
+                          Universidad y adultos.
+                        </h5>
+                    :   <h5 className='about__paragraph'>
+                          We have qualified teachers, carefully selected because of their excellent pedagogical skills and 
+                          their great teaching experience, who, thanks to their commitment and passion for the world of 
+                          education and languages, make online tutoring an excellent experience in all aspects, always 
+                          meeting your expectations, solving all your doubts and motivating you to improve.
+                          You have at your disposal classes for all levels: Infant, Primary, Baccalaureate, University and adults.
+                        </h5>
+                }
 
     </div>
   )
