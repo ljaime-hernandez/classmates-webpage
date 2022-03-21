@@ -12,7 +12,7 @@ export const AboutScreen = () => {
         {
             english
             ?   "¿En qué creemos?"
-            :   "¿What do we believe in?"
+            :   "What do we believe in?"
         }  
       </h1>
 
@@ -27,7 +27,7 @@ export const AboutScreen = () => {
                 En CLASSMATES, buscamos convertirnos en un aliado y una guía para
                 nuestros estudiantes, con el fin de que siempre se sientan cómodos y
                 motivados en sus tutorías. Sabemos que podemos proveer una educación de
-                alta calidad gracias a nuestra pasión por la educación. Así mismo, queremos 
+                alta calidad gracias a nuestra pasión por la educación y los idiomas . Así mismo, queremos 
                 contribuir con el desarrollo de los procesos de aprendizaje de una segunda 
                 lengua, teniendo en cuenta las necesidades académicas y/o intereses particulares de
                 estudiantes de cualquier edad, brindando un excelente servicio personalizado
@@ -91,7 +91,7 @@ export const AboutScreen = () => {
           {
               english
               ?   "¿Por qué CLASSMATES?"
-              :   "¿Why CLASSMATES?"
+              :   "Why CLASSMATES?"
           }
         </h1>
 
@@ -125,66 +125,34 @@ export const AboutScreen = () => {
         <h4 className='mb-5 mt-5 d-flex justify-content-center'>
           {
               english
-              ?   "Flexibilidad:"
-              :   "Flexibility:"
+              ?   "CLASSMATES Niños/adolescentes"
+              :   "CLASSMATES KIDS/TEENS"
           }
         </h4>
 
         {
             english
-            ?   <ul className='contact__list about__paragraph'>
-                  <li><i className="fa-solid fa-bullseye me-3"></i>
-                    Teniendo en cuenta tu disponibilidad, puedes escoger los días y horarios
-                    en los cuales quieras tomar las tutorías. Así mismo, tú asignas la
-                    intensidad horaria dependiendo de tus objetivos, siempre teniendo en
-                    cuenta que hay un acompañamiento constante por parte de tus docentes
-                    quienes te irán guiando en cada paso de tu proceso.
-                  </li>
-                  <li><i className="fa-solid fa-bullseye me-3"></i>
-                    Cuentas con la posibilidad de cambiar o sustituir a tu docente en caso de
-                    que así lo requieras para que, de este modo, te sientas completamente
-                    cómodo y satisfecho con tus tutorías.
-                  </li>
-                  <li><i className="fa-solid fa-bullseye me-3"></i>
-                    Puedes cancelar o cambiar los horarios de tus tutorías en caso de que así
-                    lo requieras sin costos adicionales.
-                  </li>
-                  <li><i className="fa-solid fa-bullseye me-3"></i>
-                    Si quieres aprender con amigos o familiares tienes la posibilidad de crear
-                    un grupo de estudio con el cual te sientas cómodo.
-                  </li>
-                </ul>
-            :   <ul className='contact__list about__paragraph'>
-                  <li><i className="fa-solid fa-bullseye me-3"></i>
-                    Taking into account your availability, you can choose the days and 
-                    times in which you want to take the tutorials. Likewise, you assign 
-                    the hourly intensity depending on your objectives, always bearing 
-                    in mind that there is a constant support from your teachers who will 
-                    guide you in each step of your process.
-                  </li>
-                  <li><i className="fa-solid fa-bullseye me-3"></i>
-                    You have the possibility of changing or substituting your teacher if 
-                    you require it, so that, in this way, you feel completely comfortable 
-                    and satisfied with your tutorials.
-                  </li>
-                  <li><i className="fa-solid fa-bullseye me-3"></i>
-                    You can cancel or change the schedules of your tutorials if you require 
-                    it without additional costs.
-                  </li>
-                  <li><i className="fa-solid fa-bullseye me-3"></i>
-                    If you want to learn with friends or family, you have the possibility to 
-                    create a study group which you feel comfortable with.
-                  </li>
-                </ul>
+            ?   <p className='about__paragraph'>
+                  En nuestros cursos especializados para niños y adolescentes encontrarás 
+                  actividades lúdicas que desarrollarán todas sus habilidades para que de 
+                  esta forma su aprendizaje sea más rápido, efectivo y divertido. Gracias a 
+                  nuestra metodología nuestros estudiantes aman sus clases.
+                </p>
+            :   <p className='about__paragraph'>
+                  In our specialized courses for children and teenagers, you will find dynamic 
+                  activities that will develop all their skills so that their learning 
+                  process is faster, effective and fun.
+                  Thanks to our methodology our students love their classes.
+                </p>
         }
 
-<h1 className='mb-5 mt-5 d-flex justify-content-center'>
-                    {
-                        english
-                        ?   "Docentes"
-                        :   "Teachers"
-                    }
-                </h1>
+              <h1 className='mb-5 mt-5 d-flex justify-content-center'>
+                  {
+                      english
+                      ?   "Docentes"
+                      :   "Teachers"
+                  }
+              </h1>
 
                 <div className='about__pic4'></div>
 

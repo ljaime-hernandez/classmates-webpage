@@ -30,7 +30,7 @@ export const SecondSlide = () => {
                         <li><i className="fa-solid fa-bullseye me-3"></i>
                         Participación en clubs de conversación para que practiques lo
                         aprendido con tus tutores, interactúes con otros estudiantes y pierdas
-                        del miedo a hablar en otro idioma.
+                        el miedo a hablar en otro idioma.
                         </li>
                     </ul>
                 </div>

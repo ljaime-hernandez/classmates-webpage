@@ -66,7 +66,7 @@ export const Footer = () => {
               :   "Follow us"
           }
           </p>
-        <a href="https://www.facebook.com/classmatesclub.english"><i className="fa-brands fa-facebook fa-3x me-2"></i></a>
+        <a href="https://www.facebook.com/people/ClassMates/100070444736461"><i className="fa-brands fa-facebook fa-3x me-2"></i></a>
         <a href="https://www.instagram.com/classmateslessons"><i className="fa-brands fa-instagram fa-3x me-2"></i></a>
         <a href="https://wa.me/573223348472?text=Me%20interesan%20las%20clases%20de%20ingles"><i className="fa-brands fa-whatsapp fa-3x"></i></a>
       </div>

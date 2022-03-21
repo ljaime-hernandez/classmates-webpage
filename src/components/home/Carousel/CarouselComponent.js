@@ -20,7 +20,7 @@ export const CarouselComponent = () => {
             className="link carousel__caption mb-4"
             to="/contact"
           >
-            {english ? "!Contáctanos para saber mas!" : "!Contact us to know more!" }
+            {english ? "¡Contáctanos para saber mas!" : "Contact us to know more!" }
           </Link>
             </Carousel.Caption>
         </Carousel.Item>

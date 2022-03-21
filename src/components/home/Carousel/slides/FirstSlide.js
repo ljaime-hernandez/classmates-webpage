@@ -11,11 +11,13 @@ export const FirstSlide = () => {
         <div className='col-12 col-md-6'>
             <div className='slide__pic1'>
             </div>
+            <div className='slide__img1'>
+            </div>
             <h5 className='mb-5 d-flex slide__slogan'>
                 {
                     english
                     ? "¡SIEMPRE GUIÁNDOTE, SIEMPRE APOYÁNDOTE!"
-                    : "¡ALWAYS GUIDING YOU, ALWAYS SUPPORTING YOU!"
+                    : "ALWAYS GUIDING YOU, ALWAYS SUPPORTING YOU!"
                 }
             </h5>
         </div>

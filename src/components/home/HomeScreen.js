@@ -19,7 +19,7 @@ export const HomeScreen = () => {
                         {
                             english
                             ?   "¡Aprender idiomas con CLASSMATES es muy fácil!"
-                            :   "¡Learning languages with CLASSMATES it's easy!"
+                            :   "Learning languages with CLASSMATES it's easy!"
                         }
                     </h1>
                     {
@@ -66,7 +66,7 @@ export const HomeScreen = () => {
                                 {
                                     english
                                     ?   "¡Contáctanos!"
-                                    :   "¡Contact us!"
+                                    :   "Contact us!"
                                 }
                             </button>
                         </div>
@@ -110,48 +110,70 @@ export const HomeScreen = () => {
         </div>
 
         <div className='row'>
-            <div className='col-12 col-md-4 mt-5'>
+            <div className='col-12 col-md-3 mt-5'>
 
             <i className="fa-solid fa-chalkboard-user fa-6x d-flex justify-content-center"></i>
             {
                 english
                 ?   <p className='home__paragraph mt-5'> 
-                        Hacemos traducciones de documentos oficiales y no oficiales tales como;
-                        Tesis, textos escolares y/o universitarios, libros, diplomas, actas de
-                        grado, etc.
+                        Teniendo en cuenta tu disponibilidad, puedes escoger los días y horarios
+                        en los cuales quieras tomar las tutorías. Así mismo, tú asignas la
+                        intensidad horaria dependiendo de tus objetivos, siempre teniendo en
+                        cuenta que hay un acompañamiento constante por parte de tus docentes
+                        quienes te irán guiando en cada paso de tu proceso.
                     </p>
                 :   <p className='home__paragraph mt-5'> 
-                        Translations of official and unofficial documents such as; Theses, school 
-                        and/or university texts, books, diplomas, degree certificates, etc.
+                        Taking into account your availability, you can choose the days and 
+                        times in which you want to take the tutorials. Likewise, you assign 
+                        the hourly intensity depending on your objectives, always bearing 
+                        in mind that there is a constant support from your teachers who will 
+                        guide you in each step of your process.
                     </p>
             }
             </div>
-           <div className='col-12 col-md-4 mt-5'>
+           <div className='col-12 col-md-3 mt-5'>
             <i className="fa-solid fa-school fa-6x d-flex justify-content-center"></i>
             {
                 english
                 ?   <p className='home__paragraph mt-5'> 
-                        Te preparamos para la presentación de exámenes internacionales tales
-                        como: IELTS, TOEFL, CAMBRIDGE, MET.
+                        Cuentas con la posibilidad de cambiar o sustituir a tu docente en caso de
+                        que así lo requieras para que, de este modo, te sientas completamente
+                        cómodo y satisfecho con tus tutorías.
                     </p>
                 :   <p className='home__paragraph mt-5'> 
-                        Preparation for international exams such as: IELTS, TOEFL, CAMBRIDGE, MET.
+                        You have the possibility of changing or substituting your teacher if 
+                        you require it, so that, in this way, you feel completely comfortable 
+                        and satisfied with your tutorials.
                     </p>
             }
            </div>
-           <div className='col-12 col-md-4 mt-5'>
+           <div className='col-12 col-md-3 mt-5'>
            <i className="fa-solid fa-graduation-cap fa-6x d-flex justify-content-center"></i>
             {
                 english
                 ?   <p className='home__paragraph mt-5'> 
-                        Participación en clubs de conversación para que practiques lo
-                        aprendido con tus tutores, interactúes con otros estudiantes y pierdas
-                        del miedo a hablar en otro idioma.
+                        Puedes cancelar o cambiar los horarios de tus tutorías en caso de que así
+                        lo requieras sin costos adicionales.
                     </p>
                 :   <p className='home__paragraph mt-5'> 
-                        Participation in conversation clubs so that you can practice what you have 
-                        learned with your tutors, interact with other students and lose the fear 
-                        of speaking in another language.
+                        You can cancel or change the schedules of your tutorials if you require 
+                        it without additional costs.
+                    </p>
+            }
+           </div>
+        
+
+        <div className='col-12 col-md-3 mt-5'>
+           <i className="fa-solid fa-cubes-stacked fa-6x d-flex justify-content-center"></i>
+            {
+                english
+                ?   <p className='home__paragraph mt-5'> 
+                        Si quieres aprender con amigos o familiares tienes la posibilidad de crear
+                        un grupo de estudio con el cual te sientas cómodo.
+                    </p>
+                :   <p className='home__paragraph mt-5'> 
+                        If you want to learn with friends or family, you have the possibility to 
+                        create a study group which you feel comfortable with.
                     </p>
             }
            </div>
@@ -199,7 +221,7 @@ export const HomeScreen = () => {
                             {
                                 english
                                 ?   "¡Contáctanos!"
-                                :   "¡Contact us!"
+                                :   "Contact us!"
                             }
                         </button>
                     </div>
@@ -227,7 +249,7 @@ export const HomeScreen = () => {
                     <div className="card-body">
                         <p className="card-text">
                             Me han brindado herramientas creativas y personalizadas para estudiar. He podido dominar temas que para
-                            mí eran muy difíciles gracias a que me han explicado temas complejos de una manera muy sencilla, y se 
+                            mí eran muy difíciles gracias a que me han explicado de una manera muy sencilla, y se 
                             han adaptado a mi estilo de aprendizaje. Anteriormente había realizado varios cursos de inglés, sin 
                             embargo, no sentía que avanzaba ya que los cursos no se acomodaban a mis necesidades y objetivos. 
                             Con classmates he avanzado muchísimo y además disfruto mucho las clases.

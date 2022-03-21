@@ -80,3 +80,13 @@ button {
 .link {
     display: flex;
 }
+
+
+
+@media screen and (max-width: 767px){
+
+    .contact__main {
+        height: 60vh; // view height
+    }
+
+}

@@ -24,7 +24,7 @@ export const ThirdSlide = () => {
                 </div>
             :   <div className='col-12 col-md-6 mt-5'>
                     <h1 className='mb-5 mt-5 d-flex justify-content-center home__slide-title'>
-                         ¡Learning languages with CLASSMATES is your best decision!
+                         Learning languages with CLASSMATES is your best decision!
                     </h1>
                     <p className='slide__paragraph'>
                         Studying at CLASSMATES is choosing the best option to learn English, French or Spanish. We advance at your learning pace 
