@@ -109,75 +109,77 @@ export const HomeScreen = () => {
             </div>
         </div>
 
-        <div className='row'>
+        <div className='container home__container'>
+            <div className='row'>
+                <div className='col-12 col-md-3 mt-5'>
+
+                <i className="fa-solid fa-chalkboard-user fa-6x d-flex justify-content-center"></i>
+                {
+                    english
+                    ?   <p className='home__paragraph mt-5'> 
+                            Teniendo en cuenta tu disponibilidad, puedes escoger los días y horarios
+                            en los cuales quieras tomar las tutorías. Así mismo, tú asignas la
+                            intensidad horaria dependiendo de tus objetivos, siempre teniendo en
+                            cuenta que hay un acompañamiento constante por parte de tus docentes
+                            quienes te irán guiando en cada paso de tu proceso.
+                        </p>
+                    :   <p className='home__paragraph mt-5'> 
+                            Taking into account your availability, you can choose the days and 
+                            times in which you want to take the tutorials. Likewise, you assign 
+                            the hourly intensity depending on your objectives, always bearing 
+                            in mind that there is a constant support from your teachers who will 
+                            guide you in each step of your process.
+                        </p>
+                }
+                </div>
             <div className='col-12 col-md-3 mt-5'>
-
-            <i className="fa-solid fa-chalkboard-user fa-6x d-flex justify-content-center"></i>
-            {
-                english
-                ?   <p className='home__paragraph mt-5'> 
-                        Teniendo en cuenta tu disponibilidad, puedes escoger los días y horarios
-                        en los cuales quieras tomar las tutorías. Así mismo, tú asignas la
-                        intensidad horaria dependiendo de tus objetivos, siempre teniendo en
-                        cuenta que hay un acompañamiento constante por parte de tus docentes
-                        quienes te irán guiando en cada paso de tu proceso.
-                    </p>
-                :   <p className='home__paragraph mt-5'> 
-                        Taking into account your availability, you can choose the days and 
-                        times in which you want to take the tutorials. Likewise, you assign 
-                        the hourly intensity depending on your objectives, always bearing 
-                        in mind that there is a constant support from your teachers who will 
-                        guide you in each step of your process.
-                    </p>
-            }
+                <i className="fa-solid fa-school fa-6x d-flex justify-content-center"></i>
+                {
+                    english
+                    ?   <p className='home__paragraph mt-5'> 
+                            Cuentas con la posibilidad de cambiar o sustituir a tu docente en caso de
+                            que así lo requieras para que, de este modo, te sientas completamente
+                            cómodo y satisfecho con tus tutorías.
+                        </p>
+                    :   <p className='home__paragraph mt-5'> 
+                            You have the possibility of changing or substituting your teacher if 
+                            you require it, so that, in this way, you feel completely comfortable 
+                            and satisfied with your tutorials.
+                        </p>
+                }
             </div>
-           <div className='col-12 col-md-3 mt-5'>
-            <i className="fa-solid fa-school fa-6x d-flex justify-content-center"></i>
-            {
-                english
-                ?   <p className='home__paragraph mt-5'> 
-                        Cuentas con la posibilidad de cambiar o sustituir a tu docente en caso de
-                        que así lo requieras para que, de este modo, te sientas completamente
-                        cómodo y satisfecho con tus tutorías.
-                    </p>
-                :   <p className='home__paragraph mt-5'> 
-                        You have the possibility of changing or substituting your teacher if 
-                        you require it, so that, in this way, you feel completely comfortable 
-                        and satisfied with your tutorials.
-                    </p>
-            }
-           </div>
-           <div className='col-12 col-md-3 mt-5'>
-           <i className="fa-solid fa-graduation-cap fa-6x d-flex justify-content-center"></i>
-            {
-                english
-                ?   <p className='home__paragraph mt-5'> 
-                        Puedes cancelar o cambiar los horarios de tus tutorías en caso de que así
-                        lo requieras sin costos adicionales.
-                    </p>
-                :   <p className='home__paragraph mt-5'> 
-                        You can cancel or change the schedules of your tutorials if you require 
-                        it without additional costs.
-                    </p>
-            }
-           </div>
-        
+            <div className='col-12 col-md-3 mt-5'>
+            <i className="fa-solid fa-graduation-cap fa-6x d-flex justify-content-center"></i>
+                {
+                    english
+                    ?   <p className='home__paragraph mt-5'> 
+                            Puedes cancelar o cambiar los horarios de tus tutorías en caso de que así
+                            lo requieras sin costos adicionales.
+                        </p>
+                    :   <p className='home__paragraph mt-5'> 
+                            You can cancel or change the schedules of your tutorials if you require 
+                            it without additional costs.
+                        </p>
+                }
+            </div>
+            
 
-        <div className='col-12 col-md-3 mt-5'>
-           <i className="fa-solid fa-cubes-stacked fa-6x d-flex justify-content-center"></i>
-            {
-                english
-                ?   <p className='home__paragraph mt-5'> 
-                        Si quieres aprender con amigos o familiares tienes la posibilidad de crear
-                        un grupo de estudio con el cual te sientas cómodo.
-                    </p>
-                :   <p className='home__paragraph mt-5'> 
-                        If you want to learn with friends or family, you have the possibility to 
-                        create a study group which you feel comfortable with.
-                    </p>
-            }
-           </div>
+            <div className='col-12 col-md-3 mt-5'>
+            <i className="fa-solid fa-cubes-stacked fa-6x d-flex justify-content-center"></i>
+                {
+                    english
+                    ?   <p className='home__paragraph mt-5'> 
+                            Si quieres aprender con amigos o familiares tienes la posibilidad de crear
+                            un grupo de estudio con el cual te sientas cómodo.
+                        </p>
+                    :   <p className='home__paragraph mt-5'> 
+                            If you want to learn with friends or family, you have the possibility to 
+                            create a study group which you feel comfortable with.
+                        </p>
+                }
+            </div>
         </div>
+    </div>
 
         <div className='container home__container'>
             <div className='row'>

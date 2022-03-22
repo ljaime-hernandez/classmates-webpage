@@ -38,7 +38,6 @@ li {
 }
 
 .home__main-content {
-    padding-left: 5%;
     color: darken($color: black, $amount: 15);
 }
 
@@ -49,8 +48,6 @@ li {
 
 .home__paragraph {
     text-align: justify;
-    margin-left: 10%;
-    margin-right: 10%;
     flex-shrink: unset;
     color: darken($color: black, $amount: 15);
     background-color: white;
@@ -92,11 +89,7 @@ h1 {
 h4 {
     color: darken($color: $dark-yellow, $amount: 15);
     font-weight: 900;
-    background-color: white;
-    border-radius: 10px;
-    border: outset;
-    font-weight: 900;
-    text-align: -webkit-center;
+    
 }
 
 .card-title {

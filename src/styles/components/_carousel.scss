@@ -75,20 +75,17 @@
 
 @media screen and (max-width: 767px){
 
-
-
     .slide__pic1 {
         height: 15vh;
     }
 
     .slide__img1 {
         height: 15vh;
-}
+    }
     
     .row {
         display: unset;
     }
-    
     
     .slide__pic2 {
         margin-left: 30px;
@@ -108,5 +105,32 @@
 
     .carousel-caption {
         position: unset;
+    }
+
+    .slide__paragraph {
+        font-size: small;
+
+        li {
+            font-size: small;
+        }
+    }
+
+    .home__slide-title {
+        font-size: large;
+    }
+}
+
+@media screen and (max-width: 653px){
+
+    .slide__paragraph {
+        font-size: xx-small;
+
+        li {
+            font-size: xx-small;
+        }
+    }
+
+    .home__slide-title {
+        font-size: large;
     }
 }
