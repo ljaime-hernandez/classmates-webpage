@@ -190,7 +190,7 @@ export const HomeScreen = () => {
                         {
                             english
                             ?   "Economía"
-                            :   "Economic"
+                            :   "Economy"
                         }      
                     </h1>
                     {

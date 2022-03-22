@@ -91,6 +91,12 @@ h1 {
 
 h4 {
     color: darken($color: $dark-yellow, $amount: 15);
+    font-weight: 900;
+    background-color: white;
+    border-radius: 10px;
+    border: outset;
+    font-weight: 900;
+    text-align: -webkit-center;
 }
 
 .card-title {

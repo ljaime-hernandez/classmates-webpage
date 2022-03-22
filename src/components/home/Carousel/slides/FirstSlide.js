@@ -41,7 +41,7 @@ export const FirstSlide = () => {
                     <p className='slide__paragraph'>
                         In CLASSMATES you have the option to request a demo class at no cost so that you can learn about our methodology
                         and know your Spanish level before starting your course. Remember, you have the option to distribute the class 
-                        hours to your commodity
+                        hours according to your needs
                     </p>
                 </div>
         }
