@@ -205,11 +205,10 @@ export const HomeScreen = () => {
                                 aprendizaje acompañado de la excelente orientación que te brinda CLASSMATES.
                             </h5>
                         :   <h5 className='home__paragraph'>
-                                With CLASSMATES in addition to finding fun and quality classes, you 
-                                find economic advice. In addition, you can save additional transportation 
-                                costs, tuition and materials, since with us you only have to pay for your 
-                                tutorials and be ready to venture into this wonderful world of learning 
-                                accompanied by the excellent guidance that CLASSMATES provides you.
+                                In CLASSMATES you find fun, economic and quality classes. In addition, you can 
+                                save extra transportations costs, tuition and materials, since with us you only 
+                                have to pay for your tutorials and be ready to venture into this wonderful world 
+                                of learning accompanied by the excellent guidance that CLASSMATES provides you.
                             </h5>
                     }
 
@@ -306,7 +305,7 @@ export const HomeScreen = () => {
                     <div className="col-md-10">
                     <div className="card-body">
                         <p className="card-text">
-                            I have started my Spanish lessons with classmates 6 months ago. It has been a wonderful experience.
+                            I started my Spanish lessons with classmates 6 months ago. It has been a wonderful experience.
                             My teachers are patient, knowledgeable and have a real understanding on how to teach a foreign 
                             language. The process has also been fun and they follow my process constantly. I have learnt a lot!
                         </p>

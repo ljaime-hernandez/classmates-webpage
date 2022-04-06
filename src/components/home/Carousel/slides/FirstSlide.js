@@ -29,9 +29,9 @@ export const FirstSlide = () => {
                         Clase demo de cortesía
                     </h1>
                     <p className='slide__paragraph'>
-                    En CLASSMATES tienes la opción de solicitar una clase DEMO sin ningún costo para que conozcas el nivel en el que te 
-                    encuentras, en el idioma que quieres aprender antes de comenzar tu curso. Recuerda que tienes la opción de distribuir 
-                    tus clases en los horarios que mejor se acomoden a tus necesidades.
+                        En CLASSMATES tienes la opción de solicitar una clase DEMO sin ningún costo para que conozcas el nivel en el que te 
+                        encuentras, en el idioma que quieres aprender antes de comenzar tu curso. Recuerda que tienes la opción de distribuir 
+                        tus clases en los horarios que mejor se acomoden a tus necesidades.
                     </p>
                 </div>
             :   <div className='col-12 col-md-6 mt-5'>
@@ -39,9 +39,9 @@ export const FirstSlide = () => {
                         Enjoy a free trial class
                     </h1>
                     <p className='slide__paragraph'>
-                        In CLASSMATES you have the option to request a demo class at no cost so that you can learn about our methodology
+                        In CLASSMATES you have the option to request a DEMO class at no cost so that you can learn about our methodology
                         and know your Spanish level before starting your course. Remember, you have the option to distribute the class 
-                        hours according to your needs
+                        hours according to your needs.
                     </p>
                 </div>
         }

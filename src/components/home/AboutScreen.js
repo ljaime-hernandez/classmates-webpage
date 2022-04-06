@@ -181,7 +181,7 @@ export const AboutScreen = () => {
           </div>
 
           <div className='col-12 col-md-6 mt-5 home__main-content'>
-            
+
             <h1 className='mb-5 mt-5 d-flex justify-content-center'>
               {
                   english
@@ -206,7 +206,7 @@ export const AboutScreen = () => {
                       their great teaching experience, who, thanks to their commitment and passion for the world of 
                       education and languages, make online tutoring an excellent experience in all aspects, always 
                       meeting your expectations, solving all your doubts and motivating you to improve.
-                      You have at your disposal classes for all levels: Infant, Primary, Baccalaureate, University and adults.
+                      You have at your disposal classes for all levels, from kids to seniors.
                     </h5>
             }
 
