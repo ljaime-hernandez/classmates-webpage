@@ -74,7 +74,7 @@ export const Footer = () => {
       </footer>
 
       <div className='col footer__whatsapp'>
-        <a href="https://wa.me/573223348472?text=Me%20interesan%20las%20clases%20de%20ingles">
+        <a href="https://wa.me/573223348472">
           <i className="fa-brands fa-whatsapp fa-3x"></i>
         </a>
       </div>

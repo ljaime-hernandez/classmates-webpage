@@ -81,7 +81,30 @@ button {
     display: flex;
 }
 
+.contact__colombia-icon {
+    background-image: url('../../assets/images/colombia.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    width: 30px;
+    border-radius: 5px;
+    margin-left: 10px;
+}
 
+.contact__us-icon {
+    background-image: url('../../assets/images/united-states.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    width: 30px;
+    border-radius: 5px;
+    margin-left: 10px;
+}
+
+.contact__card-text {
+    display: flex;
+    margin-bottom: 0.5rem;
+}
 
 @media screen and (max-width: 767px){
 

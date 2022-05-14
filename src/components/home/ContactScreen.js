@@ -74,6 +74,17 @@ export const ContactScreen = () => {
     <div className='contact__main animate__animated animate__fadeIn'>
 
       <div className='contact__box-container'>
+
+        <h3 className="contact__title">
+          { english ? "Llámanos" : "Call us"}
+        </h3>
+        
+        <div className="card-body">
+          <p className="card-text contact__card-text"><small className="text-muted">+1 (347) 610-0577 </small>
+            <span className='contact__us-icon'/></p>
+          <p className="card-text contact__card-text"><small className="text-muted">+57 (301) 405-8318 </small>
+          <span className='contact__colombia-icon'/></p>
+        </div>
                   
         <h3 className="contact__title">
           { english ? "Contáctanos" : "Contact us"}
