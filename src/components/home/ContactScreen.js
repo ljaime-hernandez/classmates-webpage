@@ -76,7 +76,7 @@ export const ContactScreen = () => {
       <div className='contact__box-container'>
 
         <h3 className="contact__title">
-          { english ? "Llámanos" : "Call us"}
+          { english ? "Contáctanos" : "Contact us"}
         </h3>
         
         <div className="card-body">
@@ -87,7 +87,7 @@ export const ContactScreen = () => {
         </div>
                   
         <h3 className="contact__title">
-          { english ? "Contáctanos" : "Contact us"}
+          { english ? "Conecta con nosotros" : "Connect with us"}
         </h3>
 
         <form 
