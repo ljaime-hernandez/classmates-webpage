@@ -80,7 +80,7 @@ export const ContactScreen = () => {
         </h3>
         
         <div className="card-body">
-          <p className="card-text contact__card-text"><small className="text-muted">+1 (646) 428-4001</small>
+          <p className="card-text contact__card-text"><small className="text-muted">+1 (236) 979-3548</small>
             <span className='contact__us-icon'/></p>
         </div>
                   
